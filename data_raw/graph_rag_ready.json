@@ -1,0 +1,1275 @@
+{
+  "entities": [
+    {
+      "type": "FinancialMetric",
+      "id": "AAPL_2023",
+      "properties": {
+        "ticker": "AAPL",
+        "year": 2023,
+        "NetIncome": 94680000000,
+        "TotalAssets": 352755000000,
+        "TotalLiabilities": 302083000000,
+        "OperatingCashFlow": 104038000000,
+        "GrossProfit": 152836000000,
+        "RAndD": 21914000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "AAPL_2024",
+      "properties": {
+        "ticker": "AAPL",
+        "year": 2024,
+        "NetIncome": 99803000000,
+        "TotalAssets": 352583000000,
+        "TotalLiabilities": 290437000000,
+        "OperatingCashFlow": 122151000000,
+        "GrossProfit": 170782000000,
+        "RAndD": 26251000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "AAPL_2025",
+      "properties": {
+        "ticker": "AAPL",
+        "year": 2025,
+        "NetIncome": 96995000000,
+        "TotalAssets": 364980000000,
+        "TotalLiabilities": 308030000000,
+        "OperatingCashFlow": 110543000000,
+        "GrossProfit": 169148000000,
+        "RAndD": 29915000000,
+        "SellingAndMarketing": 18260000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "AAPL_2026",
+      "properties": {
+        "ticker": "AAPL",
+        "year": 2026,
+        "NetIncome": 36330000000,
+        "TotalAssets": 359241000000,
+        "TotalLiabilities": 285508000000,
+        "OperatingCashFlow": 29935000000,
+        "GrossProfit": 58275000000,
+        "RAndD": 8268000000,
+        "SellingAndMarketing": 5101000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "AMZN_2023",
+      "properties": {
+        "ticker": "AMZN",
+        "year": 2023,
+        "NetIncome": 33364000000,
+        "TotalAssets": 420549000000,
+        "OperatingCashFlow": 46327000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "AMZN_2024",
+      "properties": {
+        "ticker": "AMZN",
+        "year": 2024,
+        "NetIncome": -2722000000,
+        "TotalAssets": 462675000000,
+        "OperatingCashFlow": 46752000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "AMZN_2025",
+      "properties": {
+        "ticker": "AMZN",
+        "year": 2025,
+        "NetIncome": 30425000000,
+        "TotalAssets": 527854000000,
+        "OperatingCashFlow": 84946000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "GOOGL_2023",
+      "properties": {
+        "ticker": "GOOGL",
+        "year": 2023,
+        "NetIncome": 76033000000,
+        "TotalAssets": 365264000000,
+        "TotalLiabilities": 109120000000,
+        "OperatingCashFlow": 91652000000,
+        "RAndD": 31562000000,
+        "SellingAndMarketing": 22912000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "GOOGL_2024",
+      "properties": {
+        "ticker": "GOOGL",
+        "year": 2024,
+        "NetIncome": 59972000000,
+        "TotalAssets": 402392000000,
+        "TotalLiabilities": 119013000000,
+        "OperatingCashFlow": 91495000000,
+        "RAndD": 39500000000,
+        "SellingAndMarketing": 26567000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "GOOGL_2025",
+      "properties": {
+        "ticker": "GOOGL",
+        "year": 2025,
+        "Revenue": 307394000000,
+        "NetIncome": 73795000000,
+        "TotalAssets": 450256000000,
+        "TotalLiabilities": 125172000000,
+        "OperatingCashFlow": 101746000000,
+        "RAndD": 45427000000,
+        "SellingAndMarketing": 27917000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "MSFT_2023",
+      "properties": {
+        "ticker": "MSFT",
+        "year": 2023,
+        "NetIncome": 61271000000,
+        "TotalAssets": 364840000000,
+        "TotalLiabilities": 198298000000,
+        "OperatingCashFlow": 76740000000,
+        "GrossProfit": 115856000000,
+        "RAndD": 20716000000,
+        "SellingAndMarketing": 20117000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "MSFT_2024",
+      "properties": {
+        "ticker": "MSFT",
+        "year": 2024,
+        "NetIncome": 72738000000,
+        "TotalAssets": 411976000000,
+        "TotalLiabilities": 205753000000,
+        "OperatingCashFlow": 89035000000,
+        "GrossProfit": 135620000000,
+        "RAndD": 24512000000,
+        "SellingAndMarketing": 21825000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "MSFT_2025",
+      "properties": {
+        "ticker": "MSFT",
+        "year": 2025,
+        "NetIncome": 72361000000,
+        "TotalAssets": 512163000000,
+        "TotalLiabilities": 243686000000,
+        "OperatingCashFlow": 87582000000,
+        "GrossProfit": 146052000000,
+        "RAndD": 27195000000,
+        "SellingAndMarketing": 22759000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "MSFT_2026",
+      "properties": {
+        "ticker": "MSFT",
+        "year": 2026,
+        "NetIncome": 24667000000,
+        "TotalAssets": 619003000000,
+        "TotalLiabilities": 275524000000,
+        "OperatingCashFlow": 34180000000,
+        "GrossProfit": 45486000000,
+        "RAndD": 7544000000,
+        "SellingAndMarketing": 5717000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "NVDA_2023",
+      "properties": {
+        "ticker": "NVDA",
+        "year": 2023,
+        "Revenue": 16675000000,
+        "NetIncome": 4332000000,
+        "TotalAssets": 44187000000,
+        "TotalLiabilities": 17575000000,
+        "OperatingCashFlow": 5822000000,
+        "GrossProfit": 10396000000,
+        "RAndD": 3924000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "NVDA_2024",
+      "properties": {
+        "ticker": "NVDA",
+        "year": 2024,
+        "Revenue": 26914000000,
+        "NetIncome": 9752000000,
+        "TotalAssets": 41182000000,
+        "TotalLiabilities": 19081000000,
+        "OperatingCashFlow": 9108000000,
+        "GrossProfit": 17475000000,
+        "RAndD": 5268000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "NVDA_2025",
+      "properties": {
+        "ticker": "NVDA",
+        "year": 2025,
+        "Revenue": 26974000000,
+        "NetIncome": 4368000000,
+        "TotalAssets": 65728000000,
+        "TotalLiabilities": 22750000000,
+        "OperatingCashFlow": 5641000000,
+        "GrossProfit": 15356000000,
+        "RAndD": 7339000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "NVDA_2026",
+      "properties": {
+        "ticker": "NVDA",
+        "year": 2026,
+        "Revenue": 60922000000,
+        "NetIncome": 29760000000,
+        "TotalAssets": 111601000000,
+        "TotalLiabilities": 32274000000,
+        "OperatingCashFlow": 28090000000,
+        "GrossProfit": 44301000000,
+        "RAndD": 8675000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "TSLA_2023",
+      "properties": {
+        "ticker": "TSLA",
+        "year": 2023,
+        "Revenue": 53823000000,
+        "NetIncome": 5519000000,
+        "TotalAssets": 82338000000,
+        "TotalLiabilities": 36440000000,
+        "OperatingCashFlow": 11497000000,
+        "GrossProfit": 13606000000,
+        "RAndD": 2593000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "TSLA_2024",
+      "properties": {
+        "ticker": "TSLA",
+        "year": 2024,
+        "Revenue": 81462000000,
+        "NetIncome": 12556000000,
+        "TotalAssets": 106618000000,
+        "TotalLiabilities": 43009000000,
+        "OperatingCashFlow": 14724000000,
+        "GrossProfit": 20853000000,
+        "RAndD": 3075000000
+      }
+    },
+    {
+      "type": "FinancialMetric",
+      "id": "TSLA_2025",
+      "properties": {
+        "ticker": "TSLA",
+        "year": 2025,
+        "Revenue": 96773000000,
+        "NetIncome": 14997000000,
+        "TotalAssets": 122070000000,
+        "TotalLiabilities": 48390000000,
+        "OperatingCashFlow": 13256000000,
+        "GrossProfit": 17660000000,
+        "RAndD": 3969000000
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "AAPL",
+      "to": "AAPL_2023",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2023"
+      }
+    },
+    {
+      "from": "AAPL",
+      "to": "AAPL_2024",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2024"
+      }
+    },
+    {
+      "from": "AAPL",
+      "to": "AAPL_2025",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2025"
+      }
+    },
+    {
+      "from": "AAPL",
+      "to": "AAPL_2026",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2026"
+      }
+    },
+    {
+      "from": "AMZN",
+      "to": "AMZN_2023",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2023"
+      }
+    },
+    {
+      "from": "AMZN",
+      "to": "AMZN_2024",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2024"
+      }
+    },
+    {
+      "from": "AMZN",
+      "to": "AMZN_2025",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2025"
+      }
+    },
+    {
+      "from": "GOOGL",
+      "to": "GOOGL_2023",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2023"
+      }
+    },
+    {
+      "from": "GOOGL",
+      "to": "GOOGL_2024",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2024"
+      }
+    },
+    {
+      "from": "GOOGL",
+      "to": "GOOGL_2025",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2025"
+      }
+    },
+    {
+      "from": "MSFT",
+      "to": "MSFT_2023",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2023"
+      }
+    },
+    {
+      "from": "MSFT",
+      "to": "MSFT_2024",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2024"
+      }
+    },
+    {
+      "from": "MSFT",
+      "to": "MSFT_2025",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2025"
+      }
+    },
+    {
+      "from": "MSFT",
+      "to": "MSFT_2026",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2026"
+      }
+    },
+    {
+      "from": "NVDA",
+      "to": "NVDA_2023",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2023"
+      }
+    },
+    {
+      "from": "NVDA",
+      "to": "NVDA_2024",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2024"
+      }
+    },
+    {
+      "from": "NVDA",
+      "to": "NVDA_2025",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2025"
+      }
+    },
+    {
+      "from": "NVDA",
+      "to": "NVDA_2026",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2026"
+      }
+    },
+    {
+      "from": "TSLA",
+      "to": "TSLA_2023",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2023"
+      }
+    },
+    {
+      "from": "TSLA",
+      "to": "TSLA_2024",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2024"
+      }
+    },
+    {
+      "from": "TSLA",
+      "to": "TSLA_2025",
+      "type": "HAS_FINANCIALS",
+      "properties": {
+        "year": "2025"
+      }
+    }
+  ],
+  "documents": [
+    {
+      "id": "https://example.com/news/aapl/0",
+      "ticker": "AAPL",
+      "title": "Apple reports strong quarterly earnings, beating estimates",
+      "content": "Full article about Apple performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-13T11:15:28.332792"
+    },
+    {
+      "id": "https://example.com/news/aapl/1",
+      "ticker": "AAPL",
+      "title": "Analysts upgrade Apple stock citing growth potential",
+      "content": "Full article about Apple performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-12T11:15:28.332792"
+    },
+    {
+      "id": "https://example.com/news/aapl/2",
+      "ticker": "AAPL",
+      "title": "Apple announces new product launch",
+      "content": "Full article about Apple performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-11T11:15:28.332792"
+    },
+    {
+      "id": "https://example.com/news/aapl/3",
+      "ticker": "AAPL",
+      "title": "Market reacts to Apple's latest financial guidance",
+      "content": "Full article about Apple performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-10T11:15:28.332792"
+    },
+    {
+      "id": "https://example.com/news/aapl/4",
+      "ticker": "AAPL",
+      "title": "Apple faces regulatory scrutiny in Europe",
+      "content": "Full article about Apple performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-09T11:15:28.332792"
+    },
+    {
+      "id": "https://example.com/news/aapl/5",
+      "ticker": "AAPL",
+      "title": "Institutional investors increase holdings in Apple",
+      "content": "Full article about Apple performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-08T11:15:28.332792"
+    },
+    {
+      "id": "https://example.com/news/aapl/6",
+      "ticker": "AAPL",
+      "title": "Apple announces strategic partnership",
+      "content": "Full article about Apple performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-07T11:15:28.332792"
+    },
+    {
+      "id": "https://example.com/news/aapl/7",
+      "ticker": "AAPL",
+      "title": "Supply chain challenges impact Apple's production",
+      "content": "Full article about Apple performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-06T11:15:28.332792"
+    },
+    {
+      "id": "https://example.com/news/aapl/8",
+      "ticker": "AAPL",
+      "title": "Apple beats revenue expectations in Q3",
+      "content": "Full article about Apple performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-05T11:15:28.332792"
+    },
+    {
+      "id": "https://example.com/news/aapl/9",
+      "ticker": "AAPL",
+      "title": "CEO of Apple discusses future strategy",
+      "content": "Full article about Apple performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-04T11:15:28.332792"
+    },
+    {
+      "id": "https://example.com/news/amzn/0",
+      "ticker": "AMZN",
+      "title": "Amazon reports strong quarterly earnings, beating estimates",
+      "content": "Full article about Amazon performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-13T11:15:38.909839"
+    },
+    {
+      "id": "https://example.com/news/amzn/1",
+      "ticker": "AMZN",
+      "title": "Analysts upgrade Amazon stock citing growth potential",
+      "content": "Full article about Amazon performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-12T11:15:38.909839"
+    },
+    {
+      "id": "https://example.com/news/amzn/2",
+      "ticker": "AMZN",
+      "title": "Amazon announces new product launch",
+      "content": "Full article about Amazon performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-11T11:15:38.909839"
+    },
+    {
+      "id": "https://example.com/news/amzn/3",
+      "ticker": "AMZN",
+      "title": "Market reacts to Amazon's latest financial guidance",
+      "content": "Full article about Amazon performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-10T11:15:38.909839"
+    },
+    {
+      "id": "https://example.com/news/amzn/4",
+      "ticker": "AMZN",
+      "title": "Amazon faces regulatory scrutiny in Europe",
+      "content": "Full article about Amazon performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-09T11:15:38.909839"
+    },
+    {
+      "id": "https://example.com/news/amzn/5",
+      "ticker": "AMZN",
+      "title": "Institutional investors increase holdings in Amazon",
+      "content": "Full article about Amazon performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-08T11:15:38.909839"
+    },
+    {
+      "id": "https://example.com/news/amzn/6",
+      "ticker": "AMZN",
+      "title": "Amazon announces strategic partnership",
+      "content": "Full article about Amazon performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-07T11:15:38.909839"
+    },
+    {
+      "id": "https://example.com/news/amzn/7",
+      "ticker": "AMZN",
+      "title": "Supply chain challenges impact Amazon's production",
+      "content": "Full article about Amazon performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-06T11:15:38.909839"
+    },
+    {
+      "id": "https://example.com/news/amzn/8",
+      "ticker": "AMZN",
+      "title": "Amazon beats revenue expectations in Q3",
+      "content": "Full article about Amazon performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-05T11:15:38.909839"
+    },
+    {
+      "id": "https://example.com/news/amzn/9",
+      "ticker": "AMZN",
+      "title": "CEO of Amazon discusses future strategy",
+      "content": "Full article about Amazon performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-04T11:15:38.909839"
+    },
+    {
+      "id": "https://example.com/news/googl/0",
+      "ticker": "GOOGL",
+      "title": "Google reports strong quarterly earnings, beating estimates",
+      "content": "Full article about Google performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-13T11:15:35.384073"
+    },
+    {
+      "id": "https://example.com/news/googl/1",
+      "ticker": "GOOGL",
+      "title": "Analysts upgrade Google stock citing growth potential",
+      "content": "Full article about Google performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-12T11:15:35.384073"
+    },
+    {
+      "id": "https://example.com/news/googl/2",
+      "ticker": "GOOGL",
+      "title": "Google announces new product launch",
+      "content": "Full article about Google performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-11T11:15:35.384073"
+    },
+    {
+      "id": "https://example.com/news/googl/3",
+      "ticker": "GOOGL",
+      "title": "Market reacts to Google's latest financial guidance",
+      "content": "Full article about Google performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-10T11:15:35.384073"
+    },
+    {
+      "id": "https://example.com/news/googl/4",
+      "ticker": "GOOGL",
+      "title": "Google faces regulatory scrutiny in Europe",
+      "content": "Full article about Google performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-09T11:15:35.384073"
+    },
+    {
+      "id": "https://example.com/news/googl/5",
+      "ticker": "GOOGL",
+      "title": "Institutional investors increase holdings in Google",
+      "content": "Full article about Google performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-08T11:15:35.384073"
+    },
+    {
+      "id": "https://example.com/news/googl/6",
+      "ticker": "GOOGL",
+      "title": "Google announces strategic partnership",
+      "content": "Full article about Google performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-07T11:15:35.384073"
+    },
+    {
+      "id": "https://example.com/news/googl/7",
+      "ticker": "GOOGL",
+      "title": "Supply chain challenges impact Google's production",
+      "content": "Full article about Google performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-06T11:15:35.384073"
+    },
+    {
+      "id": "https://example.com/news/googl/8",
+      "ticker": "GOOGL",
+      "title": "Google beats revenue expectations in Q3",
+      "content": "Full article about Google performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-05T11:15:35.384073"
+    },
+    {
+      "id": "https://example.com/news/googl/9",
+      "ticker": "GOOGL",
+      "title": "CEO of Google discusses future strategy",
+      "content": "Full article about Google performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-04T11:15:35.384073"
+    },
+    {
+      "id": "https://example.com/news/msft/0",
+      "ticker": "MSFT",
+      "title": "Microsoft reports strong quarterly earnings, beating estimates",
+      "content": "Full article about Microsoft performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-13T11:15:31.247744"
+    },
+    {
+      "id": "https://example.com/news/msft/1",
+      "ticker": "MSFT",
+      "title": "Analysts upgrade Microsoft stock citing growth potential",
+      "content": "Full article about Microsoft performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-12T11:15:31.249168"
+    },
+    {
+      "id": "https://example.com/news/msft/2",
+      "ticker": "MSFT",
+      "title": "Microsoft announces new product launch",
+      "content": "Full article about Microsoft performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-11T11:15:31.249168"
+    },
+    {
+      "id": "https://example.com/news/msft/3",
+      "ticker": "MSFT",
+      "title": "Market reacts to Microsoft's latest financial guidance",
+      "content": "Full article about Microsoft performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-10T11:15:31.249168"
+    },
+    {
+      "id": "https://example.com/news/msft/4",
+      "ticker": "MSFT",
+      "title": "Microsoft faces regulatory scrutiny in Europe",
+      "content": "Full article about Microsoft performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-09T11:15:31.249168"
+    },
+    {
+      "id": "https://example.com/news/msft/5",
+      "ticker": "MSFT",
+      "title": "Institutional investors increase holdings in Microsoft",
+      "content": "Full article about Microsoft performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-08T11:15:31.249168"
+    },
+    {
+      "id": "https://example.com/news/msft/6",
+      "ticker": "MSFT",
+      "title": "Microsoft announces strategic partnership",
+      "content": "Full article about Microsoft performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-07T11:15:31.249168"
+    },
+    {
+      "id": "https://example.com/news/msft/7",
+      "ticker": "MSFT",
+      "title": "Supply chain challenges impact Microsoft's production",
+      "content": "Full article about Microsoft performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-06T11:15:31.249168"
+    },
+    {
+      "id": "https://example.com/news/msft/8",
+      "ticker": "MSFT",
+      "title": "Microsoft beats revenue expectations in Q3",
+      "content": "Full article about Microsoft performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-05T11:15:31.249168"
+    },
+    {
+      "id": "https://example.com/news/msft/9",
+      "ticker": "MSFT",
+      "title": "CEO of Microsoft discusses future strategy",
+      "content": "Full article about Microsoft performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-04T11:15:31.249168"
+    },
+    {
+      "id": "https://example.com/news/nvda/0",
+      "ticker": "NVDA",
+      "title": "NVIDIA reports strong quarterly earnings, beating estimates",
+      "content": "Full article about NVIDIA performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-13T11:15:53.410858"
+    },
+    {
+      "id": "https://example.com/news/nvda/1",
+      "ticker": "NVDA",
+      "title": "Analysts upgrade NVIDIA stock citing growth potential",
+      "content": "Full article about NVIDIA performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-12T11:15:53.410858"
+    },
+    {
+      "id": "https://example.com/news/nvda/2",
+      "ticker": "NVDA",
+      "title": "NVIDIA announces new product launch",
+      "content": "Full article about NVIDIA performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-11T11:15:53.410858"
+    },
+    {
+      "id": "https://example.com/news/nvda/3",
+      "ticker": "NVDA",
+      "title": "Market reacts to NVIDIA's latest financial guidance",
+      "content": "Full article about NVIDIA performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-10T11:15:53.410858"
+    },
+    {
+      "id": "https://example.com/news/nvda/4",
+      "ticker": "NVDA",
+      "title": "NVIDIA faces regulatory scrutiny in Europe",
+      "content": "Full article about NVIDIA performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-09T11:15:53.410858"
+    },
+    {
+      "id": "https://example.com/news/nvda/5",
+      "ticker": "NVDA",
+      "title": "Institutional investors increase holdings in NVIDIA",
+      "content": "Full article about NVIDIA performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-08T11:15:53.410858"
+    },
+    {
+      "id": "https://example.com/news/nvda/6",
+      "ticker": "NVDA",
+      "title": "NVIDIA announces strategic partnership",
+      "content": "Full article about NVIDIA performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-07T11:15:53.410858"
+    },
+    {
+      "id": "https://example.com/news/nvda/7",
+      "ticker": "NVDA",
+      "title": "Supply chain challenges impact NVIDIA's production",
+      "content": "Full article about NVIDIA performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-06T11:15:53.410858"
+    },
+    {
+      "id": "https://example.com/news/nvda/8",
+      "ticker": "NVDA",
+      "title": "NVIDIA beats revenue expectations in Q3",
+      "content": "Full article about NVIDIA performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-05T11:15:53.410858"
+    },
+    {
+      "id": "https://example.com/news/nvda/9",
+      "ticker": "NVDA",
+      "title": "CEO of NVIDIA discusses future strategy",
+      "content": "Full article about NVIDIA performance and market impact... ",
+      "source": "Sample",
+      "timestamp": "2026-04-04T11:15:53.410858"
+    },
+    {
+      "id": "https://finance.yahoo.com/news/why-cathie-wood-latest-tesla-141428262.html",
+      "ticker": "TSLA",
+      "title": "Here Why Cathie Wood Latest Tesla ( TSLA ) Prediction May Fall Short",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260319T021500Z"
+    },
+    {
+      "id": "https://www.insidermonkey.com/blog/tesla-tsla-growth-in-china-signals-strong-global-demand-ev-sales-surge-91-1718329/",
+      "ticker": "TSLA",
+      "title": "Tesla ( TSLA ) Growth in China Signals Strong Global Demand , EV Sales Surge 91 % ",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260317T141500Z"
+    },
+    {
+      "id": "https://www.insidermonkey.com/blog/could-2026-be-the-year-teslas-tsla-foreign-sales-recover-1733046/",
+      "ticker": "TSLA",
+      "title": "Could 2026 Be The Year Tesla ( TSLA ) Foreign Sales Recover ? ",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260407T154500Z"
+    },
+    {
+      "id": "https://www.benzinga.com/insights/news/26/03/51407948/heres-how-much-you-would-have-made-owning-tesla-stock-in-the-last-10-years",
+      "ticker": "TSLA",
+      "title": "Here How Much You Would Have Made Owning Tesla Stock In The Last 10 Years",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260323T151500Z"
+    },
+    {
+      "id": "https://www.benzinga.com/markets/tech/26/03/51398561/gary-black-cautions-against-tesla-spacex-merger",
+      "ticker": "TSLA",
+      "title": "Gary Black Warns Tesla - SpaceX Merger Could Reduce TSLA Value By 25 %: ... Looking For A Problem",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260323T084500Z"
+    },
+    {
+      "id": "https://www.insidermonkey.com/blog/elon-musk-unmasks-joint-project-between-tesla-tsla-and-xai-reuters-reports-1717163/",
+      "ticker": "TSLA",
+      "title": "Elon Musk Unmasks Joint Project Between Tesla ( TSLA ) and xAI , Reuters Reports",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260315T214500Z"
+    },
+    {
+      "id": "https://www.insidermonkey.com/blog/us-government-confirms-4-3-billion-battery-deal-between-tesla-tsla-and-lg-energy-solution-reuters-reports-1721381/",
+      "ticker": "TSLA",
+      "title": "US Government Confirms $4 . 3 Billion Battery Deal Between Tesla ( TSLA ) and LG Energy Solution , Reuters Reports",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260320T210000Z"
+    },
+    {
+      "id": "https://finance.yahoo.com/markets/stocks/articles/could-2026-tesla-tsla-foreign-150650868.html",
+      "ticker": "TSLA",
+      "title": "Could 2026 Be The Year Tesla ( TSLA ) Foreign Sales Recover ? ",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260407T160000Z"
+    },
+    {
+      "id": "https://finance.yahoo.com/markets/stocks/articles/mixed-analyst-sentiment-tesla-tsla-143403193.html",
+      "ticker": "TSLA",
+      "title": "Mixed Analyst Sentiment on Tesla ( TSLA ) Amid Valuation Concerns",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260408T151500Z"
+    },
+    {
+      "id": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-shares-jim-cramer-134928306.html",
+      "ticker": "TSLA",
+      "title": "Tesla ( TSLA ) Shares Up After Jim Cramer Said It Had Options",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260328T141500Z"
+    },
+    {
+      "id": "https://finance.yahoo.com/news/elon-musk-unmasks-joint-project-193625414.html",
+      "ticker": "TSLA",
+      "title": "Elon Musk Unmasks Joint Project Between Tesla ( TSLA ) and xAI , Reuters Reports",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260315T201500Z"
+    },
+    {
+      "id": "https://finance.yahoo.com/news/bofa-initiates-buy-tesla-tsla-120741506.html",
+      "ticker": "TSLA",
+      "title": "BofA Initiates Buy on Tesla ( TSLA ) as Robotaxi Operations Expand Across Multiple Markets",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260317T130000Z"
+    },
+    {
+      "id": "https://finance.yahoo.com/markets/stocks/articles/teslas-q1-2026-earnings-expect-100958587.html",
+      "ticker": "TSLA",
+      "title": "Tesla Q1 2026 Earnings : What to Expect",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260407T183000Z"
+    },
+    {
+      "id": "https://finance.yahoo.com/markets/stocks/articles/gary-black-says-teslas-8-193109616.html",
+      "ticker": "TSLA",
+      "title": "Gary Black Says Tesla 8 - Week Slide Driven By  Disappointing  Deliveries , Robotaxi Doubts :  EVs Still Comprise 70 %... ",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260411T201500Z"
+    },
+    {
+      "id": "https://www.insidermonkey.com/blog/tesla-tesla-and-spacex-plan-to-build-a-new-chip-factory-in-texas-1729084/",
+      "ticker": "TSLA",
+      "title": "Tesla ( TESLA ) and SpaceX Plan to Build a New Chip Factory in Texas",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260331T180000Z"
+    },
+    {
+      "id": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-reveals-everyone-missed-141053485.html",
+      "ticker": "TSLA",
+      "title": "Jim Cramer Reveals What Everyone Missed About Tesla ( TSLA ) Stock",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260409T144500Z"
+    },
+    {
+      "id": "https://finance.yahoo.com/sectors/technology/articles/tesla-tesla-spacex-plan-build-173759944.html",
+      "ticker": "TSLA",
+      "title": "Tesla ( TESLA ) and SpaceX Plan to Build a New Chip Factory in Texas",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260402T050000Z"
+    },
+    {
+      "id": "https://www.benzinga.com/markets/tech/26/03/51449663/gary-black-cites-netflix-warner-bros-deal-to-caution-against-spacex-tesla-merger",
+      "ticker": "TSLA",
+      "title": "Gary Black Cites Netflix - Warner Bros Deal To Caution Against SpaceX - Tesla Merger :  Who Will Purchase The $50B \u2026 ",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260325T093000Z"
+    },
+    {
+      "id": "https://www.insidermonkey.com/blog/5-high-growth-mega-cap-stocks-to-buy-and-hold-for-next-10-years-1724882/",
+      "ticker": "TSLA",
+      "title": "5 High Growth Mega Cap Stocks to Buy And Hold For Next 10 Years",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260327T123000Z"
+    },
+    {
+      "id": "https://www.marketing-interactive.com/agency-agenda-tsla-s-eunice-tan-on-doing-the-best-work-of-their-careers",
+      "ticker": "TSLA",
+      "title": "Agency agenda : TSLA Eunice Tan on doing the best work of their careers",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260409T044500Z"
+    },
+    {
+      "id": "https://finance.yahoo.com/markets/stocks/articles/1-cash-heavy-stock-worth-145225934.html",
+      "ticker": "TSLA",
+      "title": "1 Cash - Heavy Stock Worth Your Attention and 2 We Brush Off",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260320T151500Z"
+    },
+    {
+      "id": "https://www.benzinga.com/markets/tech/26/03/51474440/ross-gerber-people-have-forgotten-elon-musks-tesla-is-automaker",
+      "ticker": "TSLA",
+      "title": "Ross Gerber Thinks People Have  Already Forgotten  Elon Musk Tesla Is An Automaker Here Why",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260326T073000Z"
+    },
+    {
+      "id": "https://www.benzinga.com/markets/large-cap/26/04/51633475/tesla-expands-ev-and-energy-reach-in-q1",
+      "ticker": "TSLA",
+      "title": "Tesla Expands EV and Energy Reach in Q1 - Tesla ( NASDAQ : TSLA ) ",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260402T184500Z"
+    },
+    {
+      "id": "https://www.benzinga.com/Opinion/26/04/51744893/tesla-shares-rise-3-percent-after-key-trading-signal",
+      "ticker": "TSLA",
+      "title": "Tesla Shares Rise 3 % After Key Trading Signal - Tesla ( NASDAQ : TSLA ) ",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260409T211500Z"
+    },
+    {
+      "id": "https://www.insidermonkey.com/blog/14-hedge-fund-favorites-with-strong-setup-in-2026-1731852/",
+      "ticker": "TSLA",
+      "title": "14 Hedge Fund Favorites with Strong Setup in 2026",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260407T154500Z"
+    },
+    {
+      "id": "https://www.benzinga.com/markets/tech/26/03/51531247/gary-black-says-tsla-has-underperformed-nasdaq-for-5-years-because-it-has-never-lived-up-to-unsupervised-fsd-hype-tsla-still-has-only-9-robotaxis",
+      "ticker": "TSLA",
+      "title": "Gary Black Says TSLA Has Underperformed Nasdaq For 5 Years Because It Has Never Lived Up To Unsupervised FSD Hype :  TSLA Still Has Only 9 Robotaxis  ",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260330T104500Z"
+    },
+    {
+      "id": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-says-top-thing-134502667.html",
+      "ticker": "TSLA",
+      "title": "Morgan Stanley Says This Is the Top Thing for Tesla Stock Bulls to Watch in 2026",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260327T213000Z"
+    },
+    {
+      "id": "https://finance.yahoo.com/markets/stocks/articles/automobile-manufacturing-stocks-q4-results-084019510.html",
+      "ticker": "TSLA",
+      "title": "Automobile Manufacturing Stocks Q4 Results : Benchmarking Tesla ( NASDAQ : TSLA ) ",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260326T091500Z"
+    },
+    {
+      "id": "https://www.aol.co.uk/articles/trending-tickers-tesla-alphabet-synopsys-094003002.html",
+      "ticker": "TSLA",
+      "title": "Trending tickers : Tesla , Alphabet , Synopsys and Endeavour Mining",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260323T101500Z"
+    },
+    {
+      "id": "https://finance.yahoo.com/markets/stocks/articles/tsla-selloff-deepens-why-analysts-165526682.html",
+      "ticker": "TSLA",
+      "title": "TSLA selloff deepens : Why analysts are slashing Tesla targets after delivery miss",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260406T173000Z"
+    },
+    {
+      "id": "https://seekingalpha.com/news/4569745-is-merging-with-spacex-the-new-master-plan-at-tesla",
+      "ticker": "TSLA",
+      "title": "Is merging with SpaceX the new  master plan  at Tesla ? ( TSLA : NASDAQ ) ",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260327T121500Z"
+    },
+    {
+      "id": "https://www.dailypolitical.com/2026/04/10/graniteshares-yieldboost-tsla-etf-nasdaqtsyy-declares-dividend-of-0-05.html",
+      "ticker": "TSLA",
+      "title": "GraniteShares Yieldboost TSLA ETF ( NASDAQ : TSYY ) Declares Dividend of $0 . 05",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260410T234500Z"
+    },
+    {
+      "id": "https://seekingalpha.com/news/4567406-tesla-likely-to-boost-capex-spending-for-chip-factory-but-spacex-xai-will-help-barclays",
+      "ticker": "TSLA",
+      "title": "Tesla likely to boost capex spending for chip factory , but SpaceX , xAI will help : Barclays ( TSLA : NASDAQ ) ",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260323T144500Z"
+    },
+    {
+      "id": "https://seekingalpha.com/news/4565415-lemonade-stock-jumps-after-morgan-stanley-upgrades-to-overweight-on-tesla-partnership",
+      "ticker": "TSLA",
+      "title": "Lemonade stock jumps after Morgan Stanley upgrades to Overweight on Tesla partnership ( LMND : NYSE ) ",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260317T181500Z"
+    },
+    {
+      "id": "https://www.tickerreport.com/banking-finance/13393200/graniteshares-yieldboost-tsla-etf-nasdaqtsyy-to-issue-dividend-of-0-06.html",
+      "ticker": "TSLA",
+      "title": "GraniteShares Yieldboost TSLA ETF ( NASDAQ : TSYY ) to Issue Dividend of $0 . 06",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260327T234500Z"
+    },
+    {
+      "id": "https://www.themarketsdaily.com/2026/03/24/direxion-daily-tsla-bear-1x-shares-nasdaqtsls-plans-quarterly-dividend-of-0-34.html",
+      "ticker": "TSLA",
+      "title": "Direxion Daily TSLA Bear 1X Shares ( NASDAQ : TSLS ) Plans Quarterly Dividend of $0 . 34",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260324T234500Z"
+    },
+    {
+      "id": "https://www.fool.com/investing/2026/03/16/down-20-from-its-high-is-tesla-stock-a-buy-right-n/?source=iedfolrf0000001",
+      "ticker": "TSLA",
+      "title": "Down 20 % From Its High , Is Tesla Stock a Buy Right Now ? ",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260316T234500Z"
+    },
+    {
+      "id": "https://www.benzinga.com/markets/tech/26/03/51263679/gary-black-thinks-tesla-sales-should-be-surging-amid-us-iran-war-rising-oil-prices-but-says-unfortunately-there-is-no",
+      "ticker": "TSLA",
+      "title": "Gary Black Thinks Tesla Sales Should Be Surging Amid US - Iran War , Rising Oil Prices But Says  Unfortunately , There Is No \u2026 ",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260316T110000Z"
+    },
+    {
+      "id": "https://seekingalpha.com/news/4565039-us-government-confirms-tesla-and-lg-energy-solutions-43b-battery-deal",
+      "ticker": "TSLA",
+      "title": "U . S . confirms $4 . 3B Tesla , LG Energy Solution battery deal ( TSLA : NASDAQ ) ",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260317T074500Z"
+    },
+    {
+      "id": "https://seekingalpha.com/news/4572995-intel-joins-spacex-tesla-and-xai-in-terafab-chip-production-project",
+      "ticker": "TSLA",
+      "title": "Intel joins SpaceX , Tesla and xAI in Terafab chip production project",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260407T153000Z"
+    },
+    {
+      "id": "https://www.benzinga.com/markets/tech/26/03/51316952/ross-gerber-says-teslas-current-vehicles-wont-achieve-autonomy-gary-black-points-to-nvidia-gtc-several-competitors-are-also",
+      "ticker": "TSLA",
+      "title": "Ross Gerber Says Tesla Current Vehicles Wont Achieve Autonomy Gary Black Points To Nvidia GTC :  Several Competitors Are Also \u2026 ",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260318T070000Z"
+    },
+    {
+      "id": "https://www.benzinga.com/markets/tech/26/03/51500528/elon-musk-drops-fresh-clues-on-possible-3-row-vehicle-from-tesla",
+      "ticker": "TSLA",
+      "title": "Elon Musk Drops Fresh Clues On Possible 3 - Row Vehicle From Tesla",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260327T063000Z"
+    },
+    {
+      "id": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/04/51657033/cramer-flags-new-trade-sell-some-tesla-wait-for-spacex-ipo",
+      "ticker": "TSLA",
+      "title": "Cramer Flags New Trade : Sell Some Tesla , Wait for SpaceX IPO ? - Tesla ( NASDAQ : TSLA ) ",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260406T153000Z"
+    },
+    {
+      "id": "https://www.dailypolitical.com/2026/03/24/direxion-daily-tsla-bull-2x-shares-nasdaqtsll-to-issue-quarterly-dividend-of-0-10.html",
+      "ticker": "TSLA",
+      "title": "Direxion Daily TSLA Bull 2X Shares ( NASDAQ : TSLL ) to Issue Quarterly Dividend of $0 . 10",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260324T233000Z"
+    },
+    {
+      "id": "https://www.benzinga.com/markets/tech/26/04/51643408/gary-black-exited-tesla-right-call-q1-delivery-miss",
+      "ticker": "TSLA",
+      "title": "Gary Black Says Exiting Tesla Position Last Year Was The  Right Call  Amid Q1 Delivery Miss : Took A Lot O",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260403T060000Z"
+    },
+    {
+      "id": "https://www.finanzen.ch/nachrichten/aktien/tesla-posts-production-delivery-and-deployment-reports-for-q1-stock-down-1035990680",
+      "ticker": "TSLA",
+      "title": "Tesla Posts Production , Delivery And Deployment Reports For Q1 , Stock Down",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260402T141500Z"
+    },
+    {
+      "id": "https://finance.yahoo.com/news/best-defense-stock-buy-dip-140801544.html",
+      "ticker": "TSLA",
+      "title": "Is This The Best Defense Stock to Buy On the Dip Amid Ongoing Middle East Conflict ? ",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260318T221500Z"
+    },
+    {
+      "id": "https://www.jdsupra.com/legalnews/money-talks-march-2026-money-money-9185483/",
+      "ticker": "TSLA",
+      "title": "Money Talks March 2026 - Money , Money , Money , Money ... Money : Motion for Summary Judgment in Lieu of Complaint | Cadwalader , Wickersham & Taft LLP",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260401T001500Z"
+    },
+    {
+      "id": "https://www.insidermonkey.com/blog/10-tech-stocks-to-sell-right-now-according-to-cathie-wood-1724434/",
+      "ticker": "TSLA",
+      "title": "10 Tech Stocks to Sell Right Now According to Cathie Wood",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260326T004500Z"
+    },
+    {
+      "id": "https://www.benzinga.com/markets/tech/26/04/51747775/gary-black-teslas-decline-disappointing-deliveries-robotaxi-doubts",
+      "ticker": "TSLA",
+      "title": "Gary Black Says Tesla 8 - Week Slide Driven By  Disappointing  Deliveries , Robotaxi Doubts :  EVs Still Co",
+      "content": " ",
+      "source": "GDELT",
+      "timestamp": "20260410T053000Z"
+    }
+  ]
+}

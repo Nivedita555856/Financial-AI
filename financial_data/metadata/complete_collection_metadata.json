@@ -1,0 +1,27 @@
+{
+  "collection_timestamp": "2026-04-13T15:53:44.680214",
+  "user_email": "niveditakothuri0506@gmail.com",
+  "tickers": [
+    "AAPL",
+    "MSFT",
+    "GOOGL",
+    "AMZN",
+    "TSLA",
+    "NVDA"
+  ],
+  "sources": [
+    "yahoo_finance",
+    "sec_edgar",
+    "news"
+  ],
+  "data_counts": {
+    "yahoo": 36,
+    "sec": 6,
+    "news": 100
+  },
+  "config": {
+    "yahoo_period": "1y",
+    "sec_years": null,
+    "news_days": 30
+  }
+}

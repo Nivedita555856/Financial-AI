@@ -1,0 +1,19 @@
+# ============================================
+# LEAN DEPLOYMENT REQUIREMENTS FOR RENDER
+# Only what api.py + graph_rag.py actually need
+# Python 3.10+
+# ============================================
+
+# Web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# Database
+neo4j==5.14.0
+
+# HTTP
+requests==2.31.0
+
+# Environment
+python-dotenv==1.0.0

@@ -1,0 +1,49 @@
+{
+  "ticker": "MSFT",
+  "cik": "0000789019",
+  "collection_date": "2026-04-13T11:15:09.818677",
+  "financial_statements": {
+    "2023": {
+      "year": 2023,
+      "NetIncome": 61271000000,
+      "TotalAssets": 364840000000,
+      "TotalLiabilities": 198298000000,
+      "OperatingCashFlow": 76740000000,
+      "GrossProfit": 115856000000,
+      "RAndD": 20716000000,
+      "SellingAndMarketing": 20117000000
+    },
+    "2024": {
+      "year": 2024,
+      "NetIncome": 72738000000,
+      "TotalAssets": 411976000000,
+      "TotalLiabilities": 205753000000,
+      "OperatingCashFlow": 89035000000,
+      "GrossProfit": 135620000000,
+      "RAndD": 24512000000,
+      "SellingAndMarketing": 21825000000
+    },
+    "2025": {
+      "year": 2025,
+      "NetIncome": 72361000000,
+      "TotalAssets": 512163000000,
+      "TotalLiabilities": 243686000000,
+      "OperatingCashFlow": 87582000000,
+      "GrossProfit": 146052000000,
+      "RAndD": 27195000000,
+      "SellingAndMarketing": 22759000000
+    },
+    "2026": {
+      "year": 2026,
+      "NetIncome": 24667000000,
+      "TotalAssets": 619003000000,
+      "TotalLiabilities": 275524000000,
+      "OperatingCashFlow": 34180000000,
+      "GrossProfit": 45486000000,
+      "RAndD": 7544000000,
+      "SellingAndMarketing": 5717000000
+    }
+  },
+  "insider_trading": [],
+  "filings": []
+}

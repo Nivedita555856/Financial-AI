@@ -1,0 +1,86 @@
+{
+  "ticker": "MSFT",
+  "collection_date": "2026-04-13T15:53:36.726573",
+  "articles": [
+    {
+      "source": "Sample",
+      "title": "Microsoft reports strong quarterly earnings, beating estimates",
+      "description": "Full article about Microsoft performance and market impact...",
+      "url": "https://example.com/news/msft/0",
+      "published_at": "2026-04-13T15:53:37.835709",
+      "is_sample": true
+    },
+    {
+      "source": "Sample",
+      "title": "Analysts upgrade Microsoft stock citing growth potential",
+      "description": "Full article about Microsoft performance and market impact...",
+      "url": "https://example.com/news/msft/1",
+      "published_at": "2026-04-12T15:53:37.835709",
+      "is_sample": true
+    },
+    {
+      "source": "Sample",
+      "title": "Microsoft announces new product launch",
+      "description": "Full article about Microsoft performance and market impact...",
+      "url": "https://example.com/news/msft/2",
+      "published_at": "2026-04-11T15:53:37.835709",
+      "is_sample": true
+    },
+    {
+      "source": "Sample",
+      "title": "Market reacts to Microsoft's latest financial guidance",
+      "description": "Full article about Microsoft performance and market impact...",
+      "url": "https://example.com/news/msft/3",
+      "published_at": "2026-04-10T15:53:37.835709",
+      "is_sample": true
+    },
+    {
+      "source": "Sample",
+      "title": "Microsoft faces regulatory scrutiny in Europe",
+      "description": "Full article about Microsoft performance and market impact...",
+      "url": "https://example.com/news/msft/4",
+      "published_at": "2026-04-09T15:53:37.835709",
+      "is_sample": true
+    },
+    {
+      "source": "Sample",
+      "title": "Institutional investors increase holdings in Microsoft",
+      "description": "Full article about Microsoft performance and market impact...",
+      "url": "https://example.com/news/msft/5",
+      "published_at": "2026-04-08T15:53:37.835709",
+      "is_sample": true
+    },
+    {
+      "source": "Sample",
+      "title": "Microsoft announces strategic partnership",
+      "description": "Full article about Microsoft performance and market impact...",
+      "url": "https://example.com/news/msft/6",
+      "published_at": "2026-04-07T15:53:37.835709",
+      "is_sample": true
+    },
+    {
+      "source": "Sample",
+      "title": "Supply chain challenges impact Microsoft's production",
+      "description": "Full article about Microsoft performance and market impact...",
+      "url": "https://example.com/news/msft/7",
+      "published_at": "2026-04-06T15:53:37.835709",
+      "is_sample": true
+    },
+    {
+      "source": "Sample",
+      "title": "Microsoft beats revenue expectations in Q3",
+      "description": "Full article about Microsoft performance and market impact...",
+      "url": "https://example.com/news/msft/8",
+      "published_at": "2026-04-05T15:53:37.835709",
+      "is_sample": true
+    },
+    {
+      "source": "Sample",
+      "title": "CEO of Microsoft discusses future strategy",
+      "description": "Full article about Microsoft performance and market impact...",
+      "url": "https://example.com/news/msft/9",
+      "published_at": "2026-04-04T15:53:37.835709",
+      "is_sample": true
+    }
+  ]
+}

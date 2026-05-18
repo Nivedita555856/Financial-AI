@@ -1,0 +1,49 @@
+{
+  "ticker": "NVDA",
+  "cik": "0001045810",
+  "collection_date": "2026-04-13T15:53:34.024864",
+  "financial_statements": {
+    "2023": {
+      "year": 2023,
+      "Revenue": 16675000000.0,
+      "NetIncome": 4332000000.0,
+      "TotalAssets": 44187000000.0,
+      "TotalLiabilities": 17575000000.0,
+      "OperatingCashFlow": 5822000000.0,
+      "GrossProfit": 10396000000.0,
+      "RAndD": 3924000000.0
+    },
+    "2024": {
+      "year": 2024,
+      "Revenue": 26914000000.0,
+      "NetIncome": 9752000000.0,
+      "TotalAssets": 41182000000.0,
+      "TotalLiabilities": 19081000000.0,
+      "OperatingCashFlow": 9108000000.0,
+      "GrossProfit": 17475000000.0,
+      "RAndD": 5268000000.0
+    },
+    "2025": {
+      "year": 2025,
+      "Revenue": 26974000000.0,
+      "NetIncome": 4368000000.0,
+      "TotalAssets": 65728000000.0,
+      "TotalLiabilities": 22750000000.0,
+      "OperatingCashFlow": 5641000000.0,
+      "GrossProfit": 15356000000.0,
+      "RAndD": 7339000000.0
+    },
+    "2026": {
+      "year": 2026,
+      "Revenue": 60922000000.0,
+      "NetIncome": 29760000000.0,
+      "TotalAssets": 111601000000.0,
+      "TotalLiabilities": 32274000000.0,
+      "OperatingCashFlow": 28090000000.0,
+      "GrossProfit": 44301000000.0,
+      "RAndD": 8675000000.0
+    }
+  },
+  "insider_trading": [],
+  "filings": []
+}

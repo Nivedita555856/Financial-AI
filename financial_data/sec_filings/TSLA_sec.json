@@ -1,0 +1,39 @@
+{
+  "ticker": "TSLA",
+  "cik": "0001318605",
+  "collection_date": "2026-04-13T15:53:32.398197",
+  "financial_statements": {
+    "2023": {
+      "year": 2023,
+      "Revenue": 53823000000.0,
+      "NetIncome": 5519000000.0,
+      "TotalAssets": 82338000000.0,
+      "TotalLiabilities": 36440000000.0,
+      "OperatingCashFlow": 11497000000.0,
+      "GrossProfit": 13606000000.0,
+      "RAndD": 2593000000.0
+    },
+    "2024": {
+      "year": 2024,
+      "Revenue": 81462000000.0,
+      "NetIncome": 12556000000.0,
+      "TotalAssets": 106618000000.0,
+      "TotalLiabilities": 43009000000.0,
+      "OperatingCashFlow": 14724000000.0,
+      "GrossProfit": 20853000000.0,
+      "RAndD": 3075000000.0
+    },
+    "2025": {
+      "year": 2025,
+      "Revenue": 96773000000.0,
+      "NetIncome": 14997000000.0,
+      "TotalAssets": 122070000000.0,
+      "TotalLiabilities": 48390000000.0,
+      "OperatingCashFlow": 13256000000.0,
+      "GrossProfit": 17660000000.0,
+      "RAndD": 3969000000.0
+    }
+  },
+  "insider_trading": [],
+  "filings": []
+}

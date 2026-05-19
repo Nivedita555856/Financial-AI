@@ -221,33 +221,45 @@ class GraphRAG:
     # WEAVIATE / NEWS
     # ------------------------------------------------------------------
 
-    def search_weaviate(self, query: str, ticker: str = None, limit: int = 5) -> List[Dict]:
+    def search_weaviate(self, query: str, ticker: str = None, limit: int = 10) -> List[Dict]:
+        """Return news articles. Prefer local RSS data; use Weaviate only as supplement."""
+        # Build local result first
+        def local_results():
+            if ticker:
+                arts = self._news.get(ticker.upper(), [])
+            else:
+                arts = [a for lst in self._news.values() for a in lst]
+            return [{"title": a.get("title",""), "ticker": ticker or a.get("ticker",""),
+                     "source": a.get("source",""), "timestamp": a.get("published_at","")}
+                    for a in arts[:limit] if a.get("title")]
+
+        # Try local first (fastest and most reliable)
+        local = local_results()
+        if local:
+            return local
+
+        # Fallback: Weaviate (needs OpenAI key for nearText)
         if self.use_weaviate:
             try:
                 where = ""
                 if ticker:
-                    where = f', where: {{operator: Equal, path: ["ticker"], valueString: "{ticker}"}}'
+                    where = f', where: {{operator: Equal, path: ["ticker"], valueString: "{ticker}"}}' 
                 gql = f'''{{ Get {{ FinancialDocument(limit: {limit}, nearText: {{concepts: ["{query}"]}}{where}) {{
                     title ticker source timestamp }} }} }}'''
                 r = requests.post(
                     f"{self.weaviate_url}/v1/graphql",
-                    headers={"Authorization": f"Bearer {self.weaviate_api_key}", "Content-Type": "application/json"},
-                    json={"query": gql}, timeout=10
+                    headers={{"Authorization": f"Bearer {self.weaviate_api_key}", "Content-Type": "application/json"}},
+                    json={{"query": gql}}, timeout=10
                 )
                 if r.status_code == 200:
-                    return r.json().get("data", {}).get("Get", {}).get("FinancialDocument", [])
+                    results = r.json().get("data", {{}}).get("Get", {{}}).get("FinancialDocument", [])
+                    if results:
+                        return results
             except Exception as e:
-                logger.warning(f"Weaviate search failed: {e}")
-        # local fallback
-        articles = self._news.get(ticker.upper(), []) if ticker else \
-                   [a for arts in self._news.values() for a in arts]
-        return [{"title": a.get("title",""), "ticker": ticker or "",
-                 "source": a.get("source",""), "timestamp": a.get("published_at","")}
-                for a in articles[:limit]]
+                logger.warning(f"Weaviate search failed: {{e}}")
 
-    # ------------------------------------------------------------------
-    # RELATIONSHIPS — Neo4j first, local fallback
-    # ------------------------------------------------------------------
+        return []
+
 
     def _neo4j_query_list(self, query: str, ticker: str, key: str) -> Optional[List[str]]:
         if not self.use_neo4j: return None

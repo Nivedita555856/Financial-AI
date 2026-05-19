@@ -11,6 +11,7 @@ import logging
 
 from graph_rag import GraphRAG
 from fetch_news import refresh_all_news, news_needs_refresh
+from app.market_data import fetch_all_prices, analyze_sentiment
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -140,15 +141,93 @@ async def get_companies():
 
 @app.get("/api/news/{ticker}")
 async def get_news(ticker: str, limit: int = 10):
-    global rag
+    news = []
+    try:
+        if rag:
+            news = rag.search_weaviate(f"{ticker} news", ticker, limit)
+    except Exception as e:
+        logger.error(f"get_news error: {e}")
+    try:
+        sentiment = analyze_sentiment(news)
+    except Exception:
+        sentiment = {"score": 0.0, "label": "Neutral", "count": 0}
+    return {"ticker": ticker, "news": news, "count": len(news),
+            "sentiment": sentiment, "status": "success"}
+
+
+@app.get("/api/prices")
+async def get_prices():
+    try:
+        return {"prices": fetch_all_prices(), "status": "success"}
+    except Exception as e:
+        raise HTTPException(500, str(e))
+
+
+@app.get("/api/prices/{ticker}")
+async def get_price(ticker: str):
+    try:
+        prices = fetch_all_prices()
+        data = prices.get(ticker.upper())
+        if not data:
+            raise HTTPException(404, f"Ticker {ticker} not found")
+        return {"ticker": ticker.upper(), **data, "status": "success"}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(500, str(e))
+
+
+@app.get("/api/sentiment/{ticker}")
+async def get_sentiment(ticker: str):
     try:
         if not rag:
-            raise HTTPException(status_code=500, detail="GraphRAG not initialized")
-        news = rag.search_weaviate(f"{ticker} news", ticker, limit)
-        return {"ticker": ticker, "news": news, "count": len(news), "status": "success"}
+            raise HTTPException(500, "GraphRAG not initialized")
+        news = rag.search_weaviate(f"{ticker} news", ticker, 15)
+        return {"ticker": ticker.upper(), "sentiment": analyze_sentiment(news), "status": "success"}
     except Exception as e:
-        logger.error(f"Error in get_news: {e}")
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(500, str(e))
+
+
+@app.get("/api/market-overview")
+async def get_market_overview():
+    try:
+        if not rag:
+            raise HTTPException(500, "GraphRAG not initialized")
+        prices = fetch_all_prices()
+        overview = []
+        for ticker in ["AAPL", "MSFT", "GOOGL", "AMZN", "TSLA", "NVDA"]:
+            news = rag.search_weaviate(f"{ticker} news", ticker, 10)
+            sentiment = analyze_sentiment(news)
+            p = prices.get(ticker, {})
+            overview.append({
+                "ticker":     ticker,
+                "name":       p.get("name", ticker),
+                "price":      p.get("price"),
+                "change":     p.get("change"),
+                "change_pct": p.get("change_pct"),
+                "prev_close": p.get("prev_close"),
+                "sentiment":  sentiment,
+            })
+        return {"overview": overview, "status": "success"}
+    except Exception as e:
+        raise HTTPException(500, str(e))
+
+
+@app.get("/api/relationships/{ticker}")
+async def get_relationships(ticker: str):
+    try:
+        if not rag:
+            raise HTTPException(500, "GraphRAG not initialized")
+        return {
+            "ticker":      ticker.upper(),
+            "suppliers":   rag.get_suppliers(ticker),
+            "customers":   rag.get_customers(ticker),
+            "competitors": rag.get_competitors(ticker),
+            "partners":    rag.get_partners(ticker),
+            "status":      "success",
+        }
+    except Exception as e:
+        raise HTTPException(500, str(e))
 
 
 @app.post("/api/news/refresh")

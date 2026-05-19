@@ -1,0 +1,47 @@
+{
+  "ticker": "AAPL",
+  "cik": "0000320193",
+  "collection_date": "2026-04-13T11:15:03.423390",
+  "financial_statements": {
+    "2023": {
+      "year": 2023,
+      "NetIncome": 94680000000,
+      "TotalAssets": 352755000000,
+      "TotalLiabilities": 302083000000,
+      "OperatingCashFlow": 104038000000,
+      "GrossProfit": 152836000000,
+      "RAndD": 21914000000
+    },
+    "2024": {
+      "year": 2024,
+      "NetIncome": 99803000000,
+      "TotalAssets": 352583000000,
+      "TotalLiabilities": 290437000000,
+      "OperatingCashFlow": 122151000000,
+      "GrossProfit": 170782000000,
+      "RAndD": 26251000000
+    },
+    "2025": {
+      "year": 2025,
+      "NetIncome": 96995000000,
+      "TotalAssets": 364980000000,
+      "TotalLiabilities": 308030000000,
+      "OperatingCashFlow": 110543000000,
+      "GrossProfit": 169148000000,
+      "RAndD": 29915000000,
+      "SellingAndMarketing": 18260000000
+    },
+    "2026": {
+      "year": 2026,
+      "NetIncome": 36330000000,
+      "TotalAssets": 359241000000,
+      "TotalLiabilities": 285508000000,
+      "OperatingCashFlow": 29935000000,
+      "GrossProfit": 58275000000,
+      "RAndD": 8268000000,
+      "SellingAndMarketing": 5101000000
+    }
+  },
+  "insider_trading": [],
+  "filings": []
+}

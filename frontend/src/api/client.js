@@ -62,8 +62,26 @@ export async function getFinancials(ticker) {
   return res.json()
 }
 
-export async function getNews(ticker, limit = 6) {
+export async function getNews(ticker, limit = 10) {
   const res = await fetchWithTimeout(`${API_URL}/api/news/${ticker}?limit=${limit}`, {}, 20_000)
+  if (!res.ok) throw new Error(`HTTP ${res.status}`)
+  return res.json()
+}
+
+export async function getPrices() {
+  const res = await fetchWithTimeout(`${API_URL}/api/prices`, {}, 15_000)
+  if (!res.ok) throw new Error(`HTTP ${res.status}`)
+  return res.json()
+}
+
+export async function getMarketOverview() {
+  const res = await fetchWithTimeout(`${API_URL}/api/market-overview`, {}, 30_000)
+  if (!res.ok) throw new Error(`HTTP ${res.status}`)
+  return res.json()
+}
+
+export async function getRelationships(ticker) {
+  const res = await fetchWithTimeout(`${API_URL}/api/relationships/${ticker}`, {}, 15_000)
   if (!res.ok) throw new Error(`HTTP ${res.status}`)
   return res.json()
 }

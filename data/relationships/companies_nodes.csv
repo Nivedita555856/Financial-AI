@@ -1,0 +1,47 @@
+company,ticker,sector,market_cap
+Apple Inc.,AAPL,Technology,3828515864576
+Microsoft Corporation,MSFT,Technology,2756445995008
+Alphabet Inc.,GOOGL,Communication Services,3837652369408
+Alphabet Inc.,GOOG,Communication Services,3819265064960
+"Amazon.com, Inc.",AMZN,Consumer Cyclical,2563598712832
+"Meta Platforms, Inc.",META,Communication Services,1593265750016
+NVIDIA Corporation,NVDA,Technology,4584652144640
+"Tesla, Inc.",TSLA,Consumer Cyclical,1309411115008
+Oracle Corporation,ORCL,Technology,397153206272
+International Business Machines Corporation,IBM,Technology,216547278848
+JPMorgan Chase & Co.,JPM,Financial Services,835729424384
+Bank of America Corporation,BAC,Financial Services,377062883328
+Wells Fargo & Company,WFC,Financial Services,263513276416
+"The Goldman Sachs Group, Inc.",GS,Financial Services,269392297984
+Morgan Stanley,MS,Financial Services,282067501056
+Citigroup Inc.,C,Financial Services,217597788160
+American Express Company,AXP,Financial Services,215253499904
+Walmart Inc.,WMT,Consumer Defensive,1010661457920
+Costco Wholesale Corporation,COST,Consumer Defensive,443190280192
+"The Home Depot, Inc.",HD,Consumer Cyclical,335999959040
+"NIKE, Inc.",NKE,Consumer Cyclical,63115403264
+Exxon Mobil Corporation,XOM,Energy,633916817408
+Chevron Corporation,CVX,Energy,375572529152
+BP p.l.c.,BP,Energy,121280978944
+Shell plc,SHEL,Energy,261771132928
+General Motors Company,GM,Consumer Cyclical,71289257984
+Ford Motor Company,F,Consumer Cyclical,48654426112
+Pfizer Inc.,PFE,Healthcare,153130549248
+Johnson & Johnson,JNJ,Healthcare,574664540160
+UnitedHealth Group Incorporated,UNH,Healthcare,276232962048
+Reliance Industries Limited,RELIANCE.NS,Energy,18271543754752
+Tata Consultancy Services Limited,TCS.NS,Technology,9133137854464
+Infosys Limited,INFY.NS,Technology,5230280835072
+HDFC Bank Limited,HDFCBANK.NS,Financial Services,12473158598656
+ICICI Bank Limited,ICICIBANK.NS,Financial Services,9466388938752
+Kotak Mahindra Bank Limited,KOTAKBANK.NS,Financial Services,3725084065792
+State Bank of India,SBIN.NS,Financial Services,9846299557888
+Larsen & Toubro Limited,LT.NS,Industrials,5447365427200
+ITC Limited,ITC.NS,Consumer Defensive,3812090707968
+Hindustan Unilever Limited,HINDUNILVR.NS,Consumer Defensive,5064809775104
+Wipro Limited,WIPRO.NS,Technology,2146531934208
+Tech Mahindra Limited,TECHM.NS,Technology,1276114632704
+LTIMindtree Ltd,LTIM.NS,Technology,1335159685120
+Oil and Natural Gas Corporation Limited,ONGC.NS,Energy,3604250099712
+NTPC Limited,NTPC.NS,Utilities,3686187663360
+Power Grid Corporation of India Limited,POWERGRID.NS,Utilities,2815757910016

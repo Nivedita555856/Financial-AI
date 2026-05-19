@@ -1,406 +1,141 @@
 {
   "ticker": "AMZN",
-  "collection_date": "2026-04-13T15:53:38.981622",
+  "collection_date": "2026-05-19T04:53:01.460582+00:00",
   "articles": [
     {
       "source": "GDELT",
-      "title": "Is Amazon . com ( AMZN ) One of the Best AI Infrastructure Stocks to Invest in ? ",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-amzn-one-best-164432480.html",
-      "published_at": "20260403T044500Z",
-      "source_country": "United States"
+      "title": "Microsoft Stock Is an AI Bargain That Investors Are Missing",
+      "description": "20260519T043000Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-ai-bargain-investors-190002838.html",
+      "published_at": "20260519T043000Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
       "source": "GDELT",
-      "title": "Amazon ( AMZN ) Intends to Revive Smartphones over Ten Years after the Fire Phone Failure",
-      "description": "",
-      "url": "https://www.insidermonkey.com/blog/amazon-amzn-intends-to-revive-smartphones-over-ten-years-after-the-fire-phones-failure-1729085/",
-      "published_at": "20260331T180000Z",
-      "source_country": "United States"
+      "title": "Warren Buffett Berkshire Big Shakeup Continues : UnitedHealth Stake Completely Sold",
+      "description": "20260519T020000Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-berkshire-big-shakeup-135140956.html",
+      "published_at": "20260519T020000Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
       "source": "GDELT",
-      "title": "Shorting Out - of - the - Money Amazon Puts Generates Attractive One - Month Yields",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/options/articles/shorting-money-amazon-puts-generates-165016398.html",
-      "published_at": "20260325T041500Z",
-      "source_country": "United States"
+      "title": "Berkshire Hathaway Greg Abel Thinks Alphabet Is a Better Magnificent Seven Stock Than Amazon . Here Why He Right . ",
+      "description": "20260519T001500Z",
+      "url": "https://www.fool.com/investing/2026/05/18/berkshire-hathaways-greg-abel-thinks-alphabet-is-a/",
+      "published_at": "20260519T001500Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
       "source": "GDELT",
-      "title": "Here the Top Wide Moat Stock to Buy for Long Term Growth",
-      "description": "",
-      "url": "https://www.insidermonkey.com/blog/heres-the-top-wide-moat-stock-to-buy-for-long-term-growth-1722729/",
-      "published_at": "20260324T204500Z",
-      "source_country": "United States"
+      "title": "Here What TD Cowen Thinks About Amazon . com ( AMZN ) ",
+      "description": "20260518T211500Z",
+      "url": "https://www.insidermonkey.com/blog/heres-what-td-cowen-thinks-about-amazon-com-amzn-1764114/",
+      "published_at": "20260518T211500Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
       "source": "GDELT",
-      "title": "Amazon . com , Inc . ( AMZN ) Advances AI and Satellite Expansion Plans",
-      "description": "",
-      "url": "https://www.insidermonkey.com/blog/amazon-com-inc-amzn-advances-ai-and-satellite-expansion-plans-1731787/",
-      "published_at": "20260403T171500Z",
-      "source_country": "United States"
+      "title": "Baystreet . ca - Berkshire Hathaway Dumps Stocks , Including Amazon And Visa",
+      "description": "20260518T184500Z",
+      "url": "http://baystreet.ca/stockstowatch/23315/Berkshire-Hathaway-Dumps-Stocks-Including-Amazon-And-Visa",
+      "published_at": "20260518T184500Z",
+      "source_country": "Canada",
+      "is_sample": false
     },
     {
       "source": "GDELT",
-      "title": "Here Why Jim Cramer Likes Amazon ( AMZN ) in 2026 Despite Unimpressive Performance",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-jim-cramer-likes-amazon-181634757.html",
-      "published_at": "20260326T051500Z",
-      "source_country": "United States"
+      "title": "It not too late to buy Nvidia . Here are the reasons we say  own it , dont trade it  ",
+      "description": "20260518T183000Z",
+      "url": "https://www.cnbc.com/2026/05/18/its-not-too-late-to-buy-nvidia-here-are-the-reasons-we-say-own-it-dont-trade-it.html",
+      "published_at": "20260518T183000Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
       "source": "GDELT",
-      "title": "Amazon . com , Inc . ( AMZN ) Cloud Unit Strengthen Ties with TGS on Energy Data and Intelligence",
-      "description": "",
-      "url": "https://www.insidermonkey.com/blog/amazon-com-inc-amzn-cloud-unit-strengthen-ties-with-tgs-on-energy-data-and-intelligence-1730282/",
-      "published_at": "20260401T203000Z",
-      "source_country": "United States"
+      "title": "Equities Research Analyst Price Target Changes for May 18th ( AEO , AMZN , ANF , APO , ARX , AVAH , BANR , BBNX , BMRN , BSX ) ",
+      "description": "20260518T183000Z",
+      "url": "https://www.tickerreport.com/banking-finance/13446364/equities-research-analysts-price-target-changes-for-may-18th-aeo-amzn-anf-apo-arx-avah-banr-bbnx-bmrn-bsx.html",
+      "published_at": "20260518T183000Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
       "source": "GDELT",
-      "title": "Is Amazon . com ( AMZN ) The Best Tech Stock to Buy For Long - Term Gains ? ",
-      "description": "",
-      "url": "https://www.insidermonkey.com/blog/is-amazon-com-amzn-the-best-tech-stock-to-buy-for-long-term-gains-1732032/",
-      "published_at": "20260406T194500Z",
-      "source_country": "United States"
+      "title": "Why the Smartest AI Investors Are Ignoring the Model Race",
+      "description": "20260518T181500Z",
+      "url": "https://investorplace.com/hypergrowthinvesting/2026/05/why-the-smartest-ai-investors-are-ignoring-the-model-race/",
+      "published_at": "20260518T181500Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
       "source": "GDELT",
-      "title": "Amazon . com Inc . ( AMZN ): Billionaire Seth Klarman Bets Big on Tech Giant",
-      "description": "",
-      "url": "https://www.insidermonkey.com/blog/amazon-com-inc-amzn-billionaire-seth-klarman-bets-big-on-tech-giant-1722385/",
-      "published_at": "20260323T174500Z",
-      "source_country": "United States"
+      "title": "Tech stocks rally while healthcare faces pressure : A closer look at today market",
+      "description": "20260518T154500Z",
+      "url": "https://investinglive.com:443/stock-market-update/tech-stocks-rally-while-healthcare-faces-pressure-a-closer-look-at-todays-market-20260518/",
+      "published_at": "20260518T154500Z",
+      "source_country": "",
+      "is_sample": false
     },
     {
       "source": "GDELT",
-      "title": "Amazon ( AMZN ) Intends to Revive Smartphones over Ten Years after the Fire Phone Failure",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-intends-revive-smartphones-173957266.html",
-      "published_at": "20260331T181500Z",
-      "source_country": "United States"
+      "title": "Wall Street Billionaires Make Amazon Their Top AI Trade",
+      "description": "20260518T003000Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-billionaires-amazon-top-133127511.html",
+      "published_at": "20260518T003000Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
       "source": "GDELT",
-      "title": "Here Why Jim Cramer Likes Amazon ( AMZN ) in 2026 Despite Unimpressive Performance",
-      "description": "",
-      "url": "https://www.insidermonkey.com/blog/heres-why-jim-cramer-likes-amazon-amzn-in-2026-despite-unimpressive-performance-1723457/",
-      "published_at": "20260324T184500Z",
-      "source_country": "United States"
+      "title": "Cerebras Is the Biggest IPO of the Year . If You Buy CBRS Stock Now , Brace Yourself for Volatility Ahead . ",
+      "description": "20260517T170000Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cerebras-biggest-ipo-buy-cbrs-153002579.html",
+      "published_at": "20260517T170000Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
       "source": "GDELT",
-      "title": "Amazon . com ( AMZN ) Eyes $37 Billion to $42 Billion in Fresh Bond Issue",
-      "description": "",
-      "url": "https://www.insidermonkey.com/blog/amazon-com-amzn-eyes-37-billion-to-42-billion-in-fresh-bond-issue-1716538/",
-      "published_at": "20260315T091500Z",
-      "source_country": "United States"
+      "title": "Is Amazon About to Join the $3 Trillion Club ? ",
+      "description": "20260517T161500Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-join-3-trillion-club-152700107.html",
+      "published_at": "20260517T161500Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
       "source": "GDELT",
-      "title": "Here How Much $1000 Invested In Amazon . com 10 Years Ago Would Be Worth Today - Amazon . com ( NASDAQ : AMZN ) ",
-      "description": "",
-      "url": "https://www.benzinga.com/insights/news/26/04/51746530/heres-how-much-1000-invested-in-amazon-com-10-years-ago-would-be-worth-today",
-      "published_at": "20260409T231500Z",
-      "source_country": "United States"
+      "title": "MarketBeat Week in Review \u2013 05 / 11",
+      "description": "20260517T121500Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/marketbeat-week-review-05-11-110000068.html",
+      "published_at": "20260517T121500Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
       "source": "GDELT",
-      "title": "Amazon ( AMZN ): 10 Best AI Stocks to Buy for the Next 10 Years",
-      "description": "",
-      "url": "https://www.insidermonkey.com/blog/amazon-amzn-10-best-ai-stocks-to-buy-for-the-next-10-years-1721631/",
-      "published_at": "20260321T210000Z",
-      "source_country": "United States"
+      "title": "Berkshire Portfolio Shifts As Abel Reshapes Buffett Playbook",
+      "description": "20260516T210000Z",
+      "url": "https://www.forbes.com/sites/bill_stone/2026/05/16/berkshire-portfolio-shifts-as-abel-reshapes-buffetts-playbook/",
+      "published_at": "20260516T210000Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
       "source": "GDELT",
-      "title": "Amazon . com , Inc . ( AMZN ): Billionaire Ray Dalio Is Loading Up On This Tech Powerhouse",
-      "description": "",
-      "url": "https://www.insidermonkey.com/blog/amazon-com-inc-amzn-billionaire-ray-dalio-is-loading-up-on-this-tech-powerhouse-1730315/",
-      "published_at": "20260401T200000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Jim Cramer Recommended Amazon ( AMZN ) As A Long Term Stock In January 2025",
-      "description": "",
-      "url": "https://finance.yahoo.com/news/jim-cramer-recommended-amazon-amzn-220130883.html",
-      "published_at": "20260318T223000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Jim Cramer Discusses Amazon ( AMZN ) Stock",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-discusses-amazon-amzn-140948755.html",
-      "published_at": "20260409T144500Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Is Amazon The Best AI Cloud Stock in Billionaire Ken Fisher Portfolio ? ",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-best-ai-cloud-stock-143421412.html",
-      "published_at": "20260410T151500Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Amazon ( AMZN ): 10 Best AI Stocks to Buy for the Next 10 Years",
-      "description": "",
-      "url": "https://finance.yahoo.com/sectors/technology/articles/amazon-amzn-10-best-ai-200134176.html",
-      "published_at": "20260321T203000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Amazon . com ( AMZN ) AWS Taps SailPoint to Develop Governance Solutions for AI Agents",
-      "description": "",
-      "url": "https://www.insidermonkey.com/blog/amazon-com-amzn-aws-taps-sailpoint-to-develop-governance-solutions-for-ai-agents-1721920/",
-      "published_at": "20260321T210000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Why Amazon . com ( AMZN ) Is One of the Best Long Term Stocks to Invest in According to Billionaires",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-amazon-com-amzn-one-102556002.html",
-      "published_at": "20260321T110000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "What Makes Amazon . com ( AMZN ) a Lucrative Investment Opportunity ? ",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/makes-amazon-com-amzn-lucrative-143155199.html",
-      "published_at": "20260407T151500Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Amazon . com Inc . ( AMZN ): D . E . Shaw Turns Bullish on Tech Giant",
-      "description": "",
-      "url": "https://www.insidermonkey.com/blog/amazon-com-inc-amzn-d-e-shaw-turns-bullish-on-tech-giant-1729839/",
-      "published_at": "20260401T214500Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Amazon . com , Inc . ( AMZN ) Cloud Unit Strengthen Ties with TGS on Energy Data and Intelligence",
-      "description": "",
-      "url": "https://finance.yahoo.com/sectors/energy/articles/amazon-com-inc-amzn-cloud-194204562.html",
-      "published_at": "20260403T080000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Amazon . com , Inc . ( AMZN ): Billionaire Paul Tudor Jones Likes This Tech Stock",
-      "description": "",
-      "url": "https://www.insidermonkey.com/blog/amazon-com-inc-amzn-billionaire-paul-tudor-jones-likes-this-tech-stock-1729882/",
-      "published_at": "20260401T161500Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Amazon . com ( AMZN ) Underperformed Despite Strong Positioning in AI and Cloud",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-amzn-underperformed-despite-163704097.html",
-      "published_at": "20260327T173000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Here Why Amazon . com ( AMZN ) Continues to Strengthen Its E - Commerce and Cloud Dominance",
-      "description": "",
-      "url": "https://www.insidermonkey.com/blog/why-amazon-com-amzn-continues-to-strengthen-its-e-commerce-and-cloud-dominance-1717354/",
-      "published_at": "20260320T153000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Globalstar rallies 15 % as report signals Amazon deal talks ( GSAT : NASDAQ ) ",
-      "description": "",
-      "url": "https://seekingalpha.com/news/4571906-globalstar-rallies-15-as-report-signals-amazon-deal-talks",
-      "published_at": "20260402T070000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Amazon . com , Inc . ( AMZN ) Upgraded on AI - Driven Growth and Margin Expansion Prospects",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-inc-amzn-upgraded-190034702.html",
-      "published_at": "20260402T081500Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Here Why Amazon . com ( AMZN ) Continues to Strengthen Its E - Commerce and Cloud Dominance",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-amazon-com-amzn-continues-145452367.html",
-      "published_at": "20260320T164500Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Amazon . com , Inc . ( AMZN ): Billionaire Steve Cohen Is Buying This Tech Stock",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-inc-amzn-billionaire-210205649.html",
-      "published_at": "20260403T213000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Amazon . com Inc . ( AMZN ): D . E . Shaw Turns Bullish on Tech Giant",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-inc-amzn-d-212130844.html",
-      "published_at": "20260403T083000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Amazon . com ( AMZN ) AWS Taps SailPoint to Develop Governance Solutions for AI Agents",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-amzn-aws-taps-182201876.html",
-      "published_at": "20260323T014500Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Jim Cramer on Amazon ( AMZN ):  Jassy Put My Mind at Ease in Incredible Fashion  ",
-      "description": "",
-      "url": "https://www.insidermonkey.com/blog/jim-cramer-on-amazon-amzn-jassy-put-my-mind-at-ease-in-incredible-fashion-1736863/",
-      "published_at": "20260413T000000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Amazon Drops 3 %: What Macro Pressure and AI Spending Concerns Mean for AMZN Stock Right Now",
-      "description": "",
-      "url": "https://247wallst.com/investing/2026/03/27/amazon-drops-3-what-macro-pressure-and-ai-spending-concerns-mean-for-amzn-stock-right-now/",
-      "published_at": "20260327T183000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Is Amazon . com , Inc . ( AMZN ) A Good Stock To Buy Now ? ",
-      "description": "",
-      "url": "https://finance.yahoo.com/news/amazon-com-inc-amzn-good-010316284.html",
-      "published_at": "20260316T013000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Jim Cramer Says  I Know Amazon , Theyre Tight as a Drum  ",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-know-amazon-060310734.html",
-      "published_at": "20260410T063000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "As Fuel Costs Skyrocket , Amazon Is Adding in New Fuel Surcharges . What Does That Mean for AMZN Stock ? ",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/fuel-costs-skyrocket-amazon-adding-170145644.html",
-      "published_at": "20260410T234500Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Stop Worrying About CapEx and Buy the Dip in Amazon Stock Here",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stop-worrying-capex-buy-dip-195645133.html",
-      "published_at": "20260410T080000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Jim Cramer on Amazon ( AMZN ):  Jassy Put My Mind at Ease in Incredible Fashion  ",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-amazon-amzn-jassy-220638946.html",
-      "published_at": "20260412T224500Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Amazon : End Of Fear , The AI Trade Comes Back ( Rating Upgrade ) ( NASDAQ : AMZN ) ",
-      "description": "",
-      "url": "https://seekingalpha.com/article/4889507-amazon-end-of-fear-the-ai-trade-comes-back-rating-upgrade",
-      "published_at": "20260409T153000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Amazon , Meta CapEx Drives Record $45 Billion Data Center Construction Boom , Overtaking Office Build With 29 % Jump",
-      "description": "",
-      "url": "https://www.benzinga.com/markets/equities/26/03/51372879/amazon-meta-capex-drives-record-45-billion-data-center-construction-boom-overtaking-office-build",
-      "published_at": "20260320T100000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "As Nvidia Signs a Deal to Sell Amazon 1 Million Chips , Is NVDA or AMZN a Better Magnificent 7 Stock to Buy ? ",
-      "description": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-signs-deal-sell-amazon-141849635.html",
-      "published_at": "20260324T233000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "CGI and Amazon Web Services sign AI collaboration deal for US public sector ( AMZN : NASDAQ ) ",
-      "description": "",
-      "url": "https://seekingalpha.com/news/4572043-cgi-and-amazon-web-services-sign-ai-collaboration-deal-for-us-public-sector",
-      "published_at": "20260402T164500Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Move Over Nvidia : Citron Sees 28 % Upside In Amazon Hidden Trillion - Dollar Chip Empire - Amazon . com ( NAS",
-      "description": "",
-      "url": "https://www.benzinga.com/markets/equities/26/04/51748187/move-over-nvidia-citron-sees-28-upside-in-amazons-hidden-trillion-dollar-chip-empire",
-      "published_at": "20260410T074500Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "American Airlines said to be in talks with Starlink , Amazon Leo for in - flight Wi - Fi",
-      "description": "",
-      "url": "https://seekingalpha.com/news/4569683-american-airlines-said-to-be-in-talks-with-starlink-amazon-leo-for-in-flight-wi-fi",
-      "published_at": "20260327T121500Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "5 Big Tech Stocks That Are Too Cheap to Ignore",
-      "description": "",
-      "url": "https://www.fool.com/investing/2026/03/23/5-big-tech-stocks-that-are-too-cheap-to-ignore/?source=iedfolrf0000001",
-      "published_at": "20260323T160000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "YieldMax AMZN Option Income Strategy ETF ( NYSEARCA : AMZY ) Sees Large Increase in Short Interest",
-      "description": "",
-      "url": "https://www.tickerreport.com/banking-finance/13396158/yieldmax-amzn-option-income-strategy-etf-nysearcaamzy-sees-large-increase-in-short-interest.html",
-      "published_at": "20260331T130000Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "SA Asks : OpenAI or Anthropic which is the better investment ? ",
-      "description": "",
-      "url": "https://seekingalpha.com/news/4572552-sa-asks-openai-or-anthropic---which-is-the-better-investment",
-      "published_at": "20260405T224500Z",
-      "source_country": "United States"
-    },
-    {
-      "source": "GDELT",
-      "title": "Microsoft may challenge Amazon - OpenAI $50B deal - report ( MSFT : NASDAQ ) ",
-      "description": "",
-      "url": "https://seekingalpha.com/news/4565645-microsoft-may-challenge-amazon-openai-50b-deal---report",
-      "published_at": "20260318T070000Z",
-      "source_country": "United States"
+      "title": "Here is why Amazon ( AMZN ) Is Among the Top Stocks to Benefit From AI",
+      "description": "20260516T143000Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-amazon-amzn-among-top-104506397.html",
+      "published_at": "20260516T143000Z",
+      "source_country": "United States",
+      "is_sample": false
     }
   ]
 }

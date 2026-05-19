@@ -1,0 +1,93 @@
+source,relation,target
+Apple Inc.,BELONGS_TO,Technology
+Apple Inc.,HAS_CAP_CLASS,MEGA_CAP
+Microsoft Corporation,BELONGS_TO,Technology
+Microsoft Corporation,HAS_CAP_CLASS,MEGA_CAP
+Alphabet Inc.,BELONGS_TO,Communication Services
+Alphabet Inc.,HAS_CAP_CLASS,MEGA_CAP
+Alphabet Inc.,BELONGS_TO,Communication Services
+Alphabet Inc.,HAS_CAP_CLASS,MEGA_CAP
+"Amazon.com, Inc.",BELONGS_TO,Consumer Cyclical
+"Amazon.com, Inc.",HAS_CAP_CLASS,MEGA_CAP
+"Meta Platforms, Inc.",BELONGS_TO,Communication Services
+"Meta Platforms, Inc.",HAS_CAP_CLASS,MEGA_CAP
+NVIDIA Corporation,BELONGS_TO,Technology
+NVIDIA Corporation,HAS_CAP_CLASS,MEGA_CAP
+"Tesla, Inc.",BELONGS_TO,Consumer Cyclical
+"Tesla, Inc.",HAS_CAP_CLASS,MEGA_CAP
+Oracle Corporation,BELONGS_TO,Technology
+Oracle Corporation,HAS_CAP_CLASS,LARGE_CAP
+International Business Machines Corporation,BELONGS_TO,Technology
+International Business Machines Corporation,HAS_CAP_CLASS,LARGE_CAP
+JPMorgan Chase & Co.,BELONGS_TO,Financial Services
+JPMorgan Chase & Co.,HAS_CAP_CLASS,MEGA_CAP
+Bank of America Corporation,BELONGS_TO,Financial Services
+Bank of America Corporation,HAS_CAP_CLASS,LARGE_CAP
+Wells Fargo & Company,BELONGS_TO,Financial Services
+Wells Fargo & Company,HAS_CAP_CLASS,LARGE_CAP
+"The Goldman Sachs Group, Inc.",BELONGS_TO,Financial Services
+"The Goldman Sachs Group, Inc.",HAS_CAP_CLASS,LARGE_CAP
+Morgan Stanley,BELONGS_TO,Financial Services
+Morgan Stanley,HAS_CAP_CLASS,LARGE_CAP
+Citigroup Inc.,BELONGS_TO,Financial Services
+Citigroup Inc.,HAS_CAP_CLASS,LARGE_CAP
+American Express Company,BELONGS_TO,Financial Services
+American Express Company,HAS_CAP_CLASS,LARGE_CAP
+Walmart Inc.,BELONGS_TO,Consumer Defensive
+Walmart Inc.,HAS_CAP_CLASS,MEGA_CAP
+Costco Wholesale Corporation,BELONGS_TO,Consumer Defensive
+Costco Wholesale Corporation,HAS_CAP_CLASS,LARGE_CAP
+"The Home Depot, Inc.",BELONGS_TO,Consumer Cyclical
+"The Home Depot, Inc.",HAS_CAP_CLASS,LARGE_CAP
+"NIKE, Inc.",BELONGS_TO,Consumer Cyclical
+"NIKE, Inc.",HAS_CAP_CLASS,LARGE_CAP
+Exxon Mobil Corporation,BELONGS_TO,Energy
+Exxon Mobil Corporation,HAS_CAP_CLASS,MEGA_CAP
+Chevron Corporation,BELONGS_TO,Energy
+Chevron Corporation,HAS_CAP_CLASS,LARGE_CAP
+BP p.l.c.,BELONGS_TO,Energy
+BP p.l.c.,HAS_CAP_CLASS,LARGE_CAP
+Shell plc,BELONGS_TO,Energy
+Shell plc,HAS_CAP_CLASS,LARGE_CAP
+General Motors Company,BELONGS_TO,Consumer Cyclical
+General Motors Company,HAS_CAP_CLASS,LARGE_CAP
+Ford Motor Company,BELONGS_TO,Consumer Cyclical
+Ford Motor Company,HAS_CAP_CLASS,MID_SMALL_CAP
+Pfizer Inc.,BELONGS_TO,Healthcare
+Pfizer Inc.,HAS_CAP_CLASS,LARGE_CAP
+Johnson & Johnson,BELONGS_TO,Healthcare
+Johnson & Johnson,HAS_CAP_CLASS,MEGA_CAP
+UnitedHealth Group Incorporated,BELONGS_TO,Healthcare
+UnitedHealth Group Incorporated,HAS_CAP_CLASS,LARGE_CAP
+Reliance Industries Limited,BELONGS_TO,Energy
+Reliance Industries Limited,HAS_CAP_CLASS,MEGA_CAP
+Tata Consultancy Services Limited,BELONGS_TO,Technology
+Tata Consultancy Services Limited,HAS_CAP_CLASS,MEGA_CAP
+Infosys Limited,BELONGS_TO,Technology
+Infosys Limited,HAS_CAP_CLASS,MEGA_CAP
+HDFC Bank Limited,BELONGS_TO,Financial Services
+HDFC Bank Limited,HAS_CAP_CLASS,MEGA_CAP
+ICICI Bank Limited,BELONGS_TO,Financial Services
+ICICI Bank Limited,HAS_CAP_CLASS,MEGA_CAP
+Kotak Mahindra Bank Limited,BELONGS_TO,Financial Services
+Kotak Mahindra Bank Limited,HAS_CAP_CLASS,MEGA_CAP
+State Bank of India,BELONGS_TO,Financial Services
+State Bank of India,HAS_CAP_CLASS,MEGA_CAP
+Larsen & Toubro Limited,BELONGS_TO,Industrials
+Larsen & Toubro Limited,HAS_CAP_CLASS,MEGA_CAP
+ITC Limited,BELONGS_TO,Consumer Defensive
+ITC Limited,HAS_CAP_CLASS,MEGA_CAP
+Hindustan Unilever Limited,BELONGS_TO,Consumer Defensive
+Hindustan Unilever Limited,HAS_CAP_CLASS,MEGA_CAP
+Wipro Limited,BELONGS_TO,Technology
+Wipro Limited,HAS_CAP_CLASS,MEGA_CAP
+Tech Mahindra Limited,BELONGS_TO,Technology
+Tech Mahindra Limited,HAS_CAP_CLASS,MEGA_CAP
+LTIMindtree Ltd,BELONGS_TO,Technology
+LTIMindtree Ltd,HAS_CAP_CLASS,MEGA_CAP
+Oil and Natural Gas Corporation Limited,BELONGS_TO,Energy
+Oil and Natural Gas Corporation Limited,HAS_CAP_CLASS,MEGA_CAP
+NTPC Limited,BELONGS_TO,Utilities
+NTPC Limited,HAS_CAP_CLASS,MEGA_CAP
+Power Grid Corporation of India Limited,BELONGS_TO,Utilities
+Power Grid Corporation of India Limited,HAS_CAP_CLASS,MEGA_CAP

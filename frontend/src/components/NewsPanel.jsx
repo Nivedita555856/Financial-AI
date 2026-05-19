@@ -26,12 +26,15 @@ export default function NewsPanel({ ticker, backendStatus }) {
     loadNews()
   }, [ticker])
 
+  const [sentiment, setSentiment] = useState(null)
+
   async function loadNews() {
     setLoading(true)
     setError(null)
     try {
       const res = await getNews(ticker, 10)
       setNews(res.news || [])
+      setSentiment(res.sentiment || null)
     } catch (e) {
       setError(e.message)
     } finally {
@@ -43,7 +46,19 @@ export default function NewsPanel({ ticker, backendStatus }) {
     <div className="panel">
       <div className="section-header">
         <div>
-          <div className="section-title">{COMPANY_NAMES[ticker] || ticker} — News</div>
+          <div className="section-title" style={{ display:'flex', alignItems:'center', gap:10 }}>
+            {COMPANY_NAMES[ticker] || ticker} — News
+            {sentiment && (
+              <span style={{
+                fontSize: 11, fontWeight: 600, padding: '2px 10px', borderRadius: 99,
+                color: sentiment.label==='Positive' ? 'var(--green)' : sentiment.label==='Negative' ? 'var(--red)' : 'var(--text-muted)',
+                background: sentiment.label==='Positive' ? 'var(--green-dim)' : sentiment.label==='Negative' ? 'var(--red-dim)' : 'var(--bg-card)',
+                border: '1px solid currentColor',
+              }}>
+                {sentiment.label==='Positive'?'▲':sentiment.label==='Negative'?'▼':'—'} {sentiment.label} · {sentiment.score}
+              </span>
+            )}
+          </div>
         </div>
         <button className="refresh-btn" onClick={loadNews} disabled={loading}>
           {loading ? '…' : '↺ Refresh'}

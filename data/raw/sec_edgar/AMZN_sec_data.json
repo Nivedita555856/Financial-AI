@@ -1,0 +1,27 @@
+{
+  "ticker": "AMZN",
+  "cik": "0001018724",
+  "collection_date": "2026-04-13T11:15:17.952239",
+  "financial_statements": {
+    "2023": {
+      "year": 2023,
+      "NetIncome": 33364000000,
+      "TotalAssets": 420549000000,
+      "OperatingCashFlow": 46327000000
+    },
+    "2024": {
+      "year": 2024,
+      "NetIncome": -2722000000,
+      "TotalAssets": 462675000000,
+      "OperatingCashFlow": 46752000000
+    },
+    "2025": {
+      "year": 2025,
+      "NetIncome": 30425000000,
+      "TotalAssets": 527854000000,
+      "OperatingCashFlow": 84946000000
+    }
+  },
+  "insider_trading": [],
+  "filings": []
+}

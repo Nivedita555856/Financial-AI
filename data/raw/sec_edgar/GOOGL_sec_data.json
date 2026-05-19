@@ -1,0 +1,37 @@
+{
+  "ticker": "GOOGL",
+  "cik": "0001652044",
+  "collection_date": "2026-04-13T11:15:15.611143",
+  "financial_statements": {
+    "2023": {
+      "year": 2023,
+      "NetIncome": 76033000000,
+      "TotalAssets": 365264000000,
+      "TotalLiabilities": 109120000000,
+      "OperatingCashFlow": 91652000000,
+      "RAndD": 31562000000,
+      "SellingAndMarketing": 22912000000
+    },
+    "2024": {
+      "year": 2024,
+      "NetIncome": 59972000000,
+      "TotalAssets": 402392000000,
+      "TotalLiabilities": 119013000000,
+      "OperatingCashFlow": 91495000000,
+      "RAndD": 39500000000,
+      "SellingAndMarketing": 26567000000
+    },
+    "2025": {
+      "year": 2025,
+      "Revenue": 307394000000,
+      "NetIncome": 73795000000,
+      "TotalAssets": 450256000000,
+      "TotalLiabilities": 125172000000,
+      "OperatingCashFlow": 101746000000,
+      "RAndD": 45427000000,
+      "SellingAndMarketing": 27917000000
+    }
+  },
+  "insider_trading": [],
+  "filings": []
+}

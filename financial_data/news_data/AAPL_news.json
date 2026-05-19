@@ -1,86 +1,141 @@
 {
   "ticker": "AAPL",
-  "collection_date": "2026-04-13T15:53:35.773343",
+  "collection_date": "2026-05-19T05:10:18.171171+00:00",
   "articles": [
     {
-      "source": "Sample",
-      "title": "Apple reports strong quarterly earnings, beating estimates",
-      "description": "Full article about Apple performance and market impact...",
-      "url": "https://example.com/news/aapl/0",
-      "published_at": "2026-04-13T15:53:36.718749",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "Baystreet . ca - Berkshire Hathaway Dumps Stocks , Including Amazon And Visa",
+      "description": "20260518T184500Z",
+      "url": "http://baystreet.ca/stockstowatch/23315/Berkshire-Hathaway-Dumps-Stocks-Including-Amazon-And-Visa",
+      "published_at": "20260518T184500Z",
+      "source_country": "Canada",
+      "is_sample": false
     },
     {
-      "source": "Sample",
-      "title": "Analysts upgrade Apple stock citing growth potential",
-      "description": "Full article about Apple performance and market impact...",
-      "url": "https://example.com/news/aapl/1",
-      "published_at": "2026-04-12T15:53:36.718749",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "Jim Cramer Shares Key Insights About Apple ( AAPL ) ",
+      "description": "20260518T164500Z",
+      "url": "https://www.insidermonkey.com/blog/jim-cramer-shares-key-insights-about-apple-aapl-1763859/",
+      "published_at": "20260518T164500Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
-      "source": "Sample",
-      "title": "Apple announces new product launch",
-      "description": "Full article about Apple performance and market impact...",
-      "url": "https://example.com/news/aapl/2",
-      "published_at": "2026-04-11T15:53:36.718749",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "Jim Cramer Shares Key Insights About Apple ( AAPL ) ",
+      "description": "20260518T151500Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-shares-key-insights-144502668.html",
+      "published_at": "20260518T151500Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
-      "source": "Sample",
-      "title": "Market reacts to Apple's latest financial guidance",
-      "description": "Full article about Apple performance and market impact...",
-      "url": "https://example.com/news/aapl/3",
-      "published_at": "2026-04-10T15:53:36.718749",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "Private Wealth Partners LLC Trims Stock Holdings in Apple Inc . $AAPL",
+      "description": "20260518T103000Z",
+      "url": "https://www.tickerreport.com/banking-finance/13445872/private-wealth-partners-llc-trims-stock-holdings-in-apple-inc-aapl.html",
+      "published_at": "20260518T103000Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
-      "source": "Sample",
-      "title": "Apple faces regulatory scrutiny in Europe",
-      "description": "Full article about Apple performance and market impact...",
-      "url": "https://example.com/news/aapl/4",
-      "published_at": "2026-04-09T15:53:36.718749",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "NVIDIA ( NASDAQ : NVDA ) Shares Acquired Rep . John McGuire",
+      "description": "20260518T003000Z",
+      "url": "https://www.dailypolitical.com/2026/05/17/nvidia-nasdaqnvda-shares-acquired-rep-john-mcguire.html",
+      "published_at": "20260518T003000Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
-      "source": "Sample",
-      "title": "Institutional investors increase holdings in Apple",
-      "description": "Full article about Apple performance and market impact...",
-      "url": "https://example.com/news/aapl/5",
-      "published_at": "2026-04-08T15:53:36.718749",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "Technology Stocks To Keep An Eye On \u2013 May 16th",
+      "description": "20260517T193000Z",
+      "url": "https://www.dailypolitical.com/2026/05/17/technology-stocks-to-keep-an-eye-on-may-16th.html",
+      "published_at": "20260517T193000Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
-      "source": "Sample",
-      "title": "Apple announces strategic partnership",
-      "description": "Full article about Apple performance and market impact...",
-      "url": "https://example.com/news/aapl/6",
-      "published_at": "2026-04-07T15:53:36.718749",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "MarketBeat Week in Review \u2013 05 / 11",
+      "description": "20260517T121500Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/marketbeat-week-review-05-11-110000068.html",
+      "published_at": "20260517T121500Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
-      "source": "Sample",
-      "title": "Supply chain challenges impact Apple's production",
-      "description": "Full article about Apple performance and market impact...",
-      "url": "https://example.com/news/aapl/7",
-      "published_at": "2026-04-06T15:53:36.718749",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "A $900 , 000 Portfolio With 47 Percent in One Tech Stock Is the Retirement Time Bomb Most Couples Refuse to Defuse",
+      "description": "20260517T023000Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/900-000-portfolio-47-percent-194518302.html",
+      "published_at": "20260517T023000Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
-      "source": "Sample",
-      "title": "Apple beats revenue expectations in Q3",
-      "description": "Full article about Apple performance and market impact...",
-      "url": "https://example.com/news/aapl/8",
-      "published_at": "2026-04-05T15:53:36.718749",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "Under Greg Abel , Apple Stock Looks Like It Here to Stay in Berkshire Hathaway Portfolio",
+      "description": "20260516T211500Z",
+      "url": "https://www.fool.com/investing/2026/05/16/under-greg-abel-apple-stock-looks-like-its-here-to/?source=iedfolrf0000001",
+      "published_at": "20260516T211500Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
-      "source": "Sample",
-      "title": "CEO of Apple discusses future strategy",
-      "description": "Full article about Apple performance and market impact...",
-      "url": "https://example.com/news/aapl/9",
-      "published_at": "2026-04-04T15:53:36.718749",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "Is the Vanguard Information Technology ETF the Right Fit for Your Portfolio Before Summer ? ",
+      "description": "20260516T211500Z",
+      "url": "https://www.fool.com/investing/2026/05/16/is-etf-name-the-right-fit-for-your-portfolio-befor/?source=iedfolrf0000001",
+      "published_at": "20260516T211500Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Berkshire Portfolio Shifts As Abel Reshapes Buffett Playbook",
+      "description": "20260516T210000Z",
+      "url": "https://www.forbes.com/sites/bill_stone/2026/05/16/berkshire-portfolio-shifts-as-abel-reshapes-buffetts-playbook/",
+      "published_at": "20260516T210000Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Is the Vanguard Information Technology ETF the Right Fit for Your Portfolio Before Summer ? ",
+      "description": "20260516T204500Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vanguard-information-technology-etf-fit-200602828.html",
+      "published_at": "20260516T204500Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Best Large Cap Stocks To Keep An Eye On \u2013 May 16th",
+      "description": "20260516T204500Z",
+      "url": "https://www.dailypolitical.com/2026/05/16/best-large-cap-stocks-to-keep-an-eye-on-may-16th.html",
+      "published_at": "20260516T204500Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Apple [ NASDAQ : AAPL ] Stock Rises 1 % After Surprise iPhone 17 Price Cuts in China Ahead of 618 Shopping Festival",
+      "description": "20260516T200000Z",
+      "url": "https://www.foreignpolicyjournal.com/2026/05/16/apple-nasdaq-aapl-stock-rises-1-after-surprise-iphone-17-price-cuts-in-china-ahead-of-618-shopping-festival/",
+      "published_at": "20260516T200000Z",
+      "source_country": "Israel",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Under Greg Abel , Apple Stock Looks Like It Here to Stay in Berkshire Hathaway Portfolio",
+      "description": "20260516T200000Z",
+      "url": "https://www.fool.com/investing/2026/05/16/under-greg-abel-apple-stock-looks-like-its-here-to/",
+      "published_at": "20260516T200000Z",
+      "source_country": "United States",
+      "is_sample": false
     }
   ]
 }

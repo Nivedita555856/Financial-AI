@@ -1,0 +1,16 @@
+from_company,to_company,relationship_type
+Apple,TSMC,SUPPLIES_TO
+Apple,Samsung,SUPPLIES_TO
+Apple,Foxconn,SUPPLIES_TO
+NVIDIA,Microsoft,SUPPLIES_TO
+NVIDIA,Google,SUPPLIES_TO
+NVIDIA,Amazon,SUPPLIES_TO
+Tesla,Rivian,COMPETES_WITH
+Tesla,Lucid,COMPETES_WITH
+Tesla,Ford,COMPETES_WITH
+Microsoft,Google,COMPETES_WITH
+Microsoft,Amazon,COMPETES_WITH
+Microsoft,OpenAI,PARTNERS_WITH
+Apple,Microsoft,COMPETES_WITH
+Apple,Google,COMPETES_WITH
+Google,Amazon,COMPETES_WITH

@@ -1,0 +1,86 @@
+{
+  "ticker": "NVDA",
+  "collection_date": "2026-04-13T11:15:50.916651",
+  "articles": [
+    {
+      "source": "Sample",
+      "title": "NVIDIA reports strong quarterly earnings, beating estimates",
+      "description": "Full article about NVIDIA performance and market impact...",
+      "url": "https://example.com/news/nvda/0",
+      "published_at": "2026-04-13T11:15:53.410858",
+      "is_sample": true
+    },
+    {
+      "source": "Sample",
+      "title": "Analysts upgrade NVIDIA stock citing growth potential",
+      "description": "Full article about NVIDIA performance and market impact...",
+      "url": "https://example.com/news/nvda/1",
+      "published_at": "2026-04-12T11:15:53.410858",
+      "is_sample": true
+    },
+    {
+      "source": "Sample",
+      "title": "NVIDIA announces new product launch",
+      "description": "Full article about NVIDIA performance and market impact...",
+      "url": "https://example.com/news/nvda/2",
+      "published_at": "2026-04-11T11:15:53.410858",
+      "is_sample": true
+    },
+    {
+      "source": "Sample",
+      "title": "Market reacts to NVIDIA's latest financial guidance",
+      "description": "Full article about NVIDIA performance and market impact...",
+      "url": "https://example.com/news/nvda/3",
+      "published_at": "2026-04-10T11:15:53.410858",
+      "is_sample": true
+    },
+    {
+      "source": "Sample",
+      "title": "NVIDIA faces regulatory scrutiny in Europe",
+      "description": "Full article about NVIDIA performance and market impact...",
+      "url": "https://example.com/news/nvda/4",
+      "published_at": "2026-04-09T11:15:53.410858",
+      "is_sample": true
+    },
+    {
+      "source": "Sample",
+      "title": "Institutional investors increase holdings in NVIDIA",
+      "description": "Full article about NVIDIA performance and market impact...",
+      "url": "https://example.com/news/nvda/5",
+      "published_at": "2026-04-08T11:15:53.410858",
+      "is_sample": true
+    },
+    {
+      "source": "Sample",
+      "title": "NVIDIA announces strategic partnership",
+      "description": "Full article about NVIDIA performance and market impact...",
+      "url": "https://example.com/news/nvda/6",
+      "published_at": "2026-04-07T11:15:53.410858",
+      "is_sample": true
+    },
+    {
+      "source": "Sample",
+      "title": "Supply chain challenges impact NVIDIA's production",
+      "description": "Full article about NVIDIA performance and market impact...",
+      "url": "https://example.com/news/nvda/7",
+      "published_at": "2026-04-06T11:15:53.410858",
+      "is_sample": true
+    },
+    {
+      "source": "Sample",
+      "title": "NVIDIA beats revenue expectations in Q3",
+      "description": "Full article about NVIDIA performance and market impact...",
+      "url": "https://example.com/news/nvda/8",
+      "published_at": "2026-04-05T11:15:53.410858",
+      "is_sample": true
+    },
+    {
+      "source": "Sample",
+      "title": "CEO of NVIDIA discusses future strategy",
+      "description": "Full article about NVIDIA performance and market impact...",
+      "url": "https://example.com/news/nvda/9",
+      "published_at": "2026-04-04T11:15:53.410858",
+      "is_sample": true
+    }
+  ]
+}

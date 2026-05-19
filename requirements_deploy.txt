@@ -1,8 +1,5 @@
-# ============================================
-# LEAN DEPLOYMENT REQUIREMENTS FOR RENDER
-# Only what api.py + graph_rag.py actually need
-# Python 3.10+
-# ============================================
+# ── Production requirements for Render ──────────────────────────────────
+# Python 3.11
 
 # Web framework
 fastapi==0.104.1
@@ -17,3 +14,9 @@ requests==2.31.0
 
 # Environment
 python-dotenv==1.0.0
+
+# Market data (live stock prices)
+yfinance==0.2.28
+
+# Sentiment analysis
+vaderSentiment==3.3.2

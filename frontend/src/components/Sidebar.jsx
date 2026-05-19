@@ -1,4 +1,5 @@
-import { MessageSquare, BarChart2, Newspaper, Zap } from 'lucide-react'
+import { useEffect, useState } from 'react'
+import { MessageSquare, BarChart2, Newspaper, Zap, TrendingUp } from 'lucide-react'
 
 const COMPANIES = [
   { ticker: 'AAPL',  name: 'Apple',     color: '#a8b2c0' },
@@ -10,14 +11,33 @@ const COMPANIES = [
 ]
 
 const NAV = [
-  { id: 'chat',       label: 'AI Chat',          Icon: MessageSquare },
-  { id: 'financials', label: 'Financials',        Icon: BarChart2     },
-  { id: 'news',       label: 'News Feed',         Icon: Newspaper     },
-  { id: 'impact',     label: 'Impact Analysis',   Icon: Zap           },
+  { id: 'chat',      label: 'AI Chat',          Icon: MessageSquare },
+  { id: 'market',    label: 'Market Overview',   Icon: TrendingUp    },
+  { id: 'financials',label: 'Financials',        Icon: BarChart2     },
+  { id: 'news',      label: 'News Feed',         Icon: Newspaper     },
+  { id: 'impact',    label: 'Impact Analysis',   Icon: Zap           },
 ]
 
+const API_URL = import.meta.env.VITE_API_URL || ''
+
 export default function Sidebar({ selectedTicker, setTicker, activeTab, setActiveTab, backendStatus }) {
-  const active = COMPANIES.find(c => c.ticker === selectedTicker)
+  const [prices, setPrices] = useState({})
+
+  useEffect(() => {
+    fetchPrices()
+    const id = setInterval(fetchPrices, 15 * 60 * 1000) // every 15 min
+    return () => clearInterval(id)
+  }, [])
+
+  async function fetchPrices() {
+    try {
+      const res = await fetch(`${API_URL}/api/prices`)
+      if (res.ok) {
+        const data = await res.json()
+        setPrices(data.prices || {})
+      }
+    } catch {}
+  }
 
   return (
     <aside className="sidebar">
@@ -36,18 +56,33 @@ export default function Sidebar({ selectedTicker, setTicker, activeTab, setActiv
       <div className="sidebar-companies">
         <div className="sidebar-section-title">Companies</div>
         <div className="company-grid">
-          {COMPANIES.map(c => (
-            <div
-              key={c.ticker}
-              className={`company-card ${selectedTicker === c.ticker ? 'active' : ''}`}
-              style={{ '--company-color': c.color }}
-              onClick={() => setTicker(c.ticker)}
-              title={c.name}
-            >
-              <div className="company-ticker">{c.ticker}</div>
-              <div className="company-name-small">{c.name}</div>
-            </div>
-          ))}
+          {COMPANIES.map(c => {
+            const p = prices[c.ticker]
+            const up = p?.change_pct > 0
+            const down = p?.change_pct < 0
+            return (
+              <div
+                key={c.ticker}
+                className={`company-card ${selectedTicker === c.ticker ? 'active' : ''}`}
+                style={{ '--company-color': c.color }}
+                onClick={() => setTicker(c.ticker)}
+              >
+                <div className="company-ticker">{c.ticker}</div>
+                {p?.price ? (
+                  <>
+                    <div style={{ fontSize: 11, color: 'var(--text-primary)', fontFamily: 'var(--font-mono)', marginTop: 2 }}>
+                      ${p.price}
+                    </div>
+                    <div style={{ fontSize: 10, color: up ? 'var(--green)' : down ? 'var(--red)' : 'var(--text-muted)', marginTop: 1 }}>
+                      {up ? '▲' : down ? '▼' : '—'} {p.change_pct != null ? Math.abs(p.change_pct).toFixed(2) + '%' : ''}
+                    </div>
+                  </>
+                ) : (
+                  <div className="company-name-small">{c.name}</div>
+                )}
+              </div>
+            )
+          })}
         </div>
       </div>
 
@@ -62,7 +97,8 @@ export default function Sidebar({ selectedTicker, setTicker, activeTab, setActiv
           >
             <Icon size={16} />
             <span>{label}</span>
-            {id === 'chat' && <span className="nav-badge">AI</span>}
+            {id === 'chat'   && <span className="nav-badge">AI</span>}
+            {id === 'market' && <span className="nav-badge">Live</span>}
           </div>
         ))}
       </nav>
@@ -72,20 +108,13 @@ export default function Sidebar({ selectedTicker, setTicker, activeTab, setActiv
         <div className="status-row">
           <span className={`status-dot ${backendStatus}`} />
           <span style={{ fontSize: 11 }}>
-            {backendStatus === 'online'   ? 'Backend connected'   : ''}
-            {backendStatus === 'offline'  ? 'Backend offline'     : ''}
-            {backendStatus === 'checking' ? 'Connecting…'         : ''}
+            {backendStatus === 'online'   ? 'Backend connected' : ''}
+            {backendStatus === 'offline'  ? 'Backend offline'   : ''}
+            {backendStatus === 'checking' ? 'Connecting…'       : ''}
           </span>
         </div>
-        {active && (
-          <div style={{ marginTop: 10, fontSize: 11, color: 'var(--text-muted)' }}>
-            Viewing:&nbsp;
-            <span style={{ color: active.color, fontWeight: 600 }}>{active.ticker}</span>
-            &nbsp;—&nbsp;{active.name}
-          </div>
-        )}
         <div style={{ marginTop: 8, fontSize: 10, color: 'var(--text-muted)' }}>
-          Neo4j · Weaviate · Groq LLM
+          Neo4j · Weaviate · Groq · GDELT
         </div>
       </div>
     </aside>

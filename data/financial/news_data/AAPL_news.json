@@ -1,0 +1,78 @@
+{
+  "ticker": "AAPL",
+  "collection_date": "2026-05-19T04:52:16.004968+00:00",
+  "articles": [
+    {
+      "source": "GDELT",
+      "title": "Baystreet . ca - Berkshire Hathaway Dumps Stocks , Including Amazon And Visa",
+      "description": "20260518T184500Z",
+      "url": "http://baystreet.ca/stockstowatch/23315/Berkshire-Hathaway-Dumps-Stocks-Including-Amazon-And-Visa",
+      "published_at": "20260518T184500Z",
+      "source_country": "Canada",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Jim Cramer Shares Key Insights About Apple ( AAPL ) ",
+      "description": "20260518T164500Z",
+      "url": "https://www.insidermonkey.com/blog/jim-cramer-shares-key-insights-about-apple-aapl-1763859/",
+      "published_at": "20260518T164500Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Jim Cramer Shares Key Insights About Apple ( AAPL ) ",
+      "description": "20260518T151500Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-shares-key-insights-144502668.html",
+      "published_at": "20260518T151500Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Private Wealth Partners LLC Trims Stock Holdings in Apple Inc . $AAPL",
+      "description": "20260518T103000Z",
+      "url": "https://www.tickerreport.com/banking-finance/13445872/private-wealth-partners-llc-trims-stock-holdings-in-apple-inc-aapl.html",
+      "published_at": "20260518T103000Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "NVIDIA ( NASDAQ : NVDA ) Shares Acquired Rep . John McGuire",
+      "description": "20260518T003000Z",
+      "url": "https://www.dailypolitical.com/2026/05/17/nvidia-nasdaqnvda-shares-acquired-rep-john-mcguire.html",
+      "published_at": "20260518T003000Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Technology Stocks To Keep An Eye On \u2013 May 16th",
+      "description": "20260517T193000Z",
+      "url": "https://www.dailypolitical.com/2026/05/17/technology-stocks-to-keep-an-eye-on-may-16th.html",
+      "published_at": "20260517T193000Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "MarketBeat Week in Review \u2013 05 / 11",
+      "description": "20260517T121500Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/marketbeat-week-review-05-11-110000068.html",
+      "published_at": "20260517T121500Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "A $900 , 000 Portfolio With 47 Percent in One Tech Stock Is the Retirement Time Bomb Most Couples Refuse to Defuse",
+      "description": "20260517T023000Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/900-000-portfolio-47-percent-194518302.html",
+      "published_at": "20260517T023000Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source":

@@ -1,86 +1,141 @@
 {
   "ticker": "GOOGL",
-  "collection_date": "2026-04-13T15:53:37.845641",
+  "collection_date": "2026-05-19T05:09:24.545298+00:00",
   "articles": [
     {
-      "source": "Sample",
-      "title": "Google reports strong quarterly earnings, beating estimates",
-      "description": "Full article about Google performance and market impact...",
-      "url": "https://example.com/news/googl/0",
-      "published_at": "2026-04-13T15:53:38.973942",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "Alphabet ( NASDAQ : GOOGL ) Major Shareholder 2019 Gp L . L . C . Gv Sells 60 , 077 Shares",
+      "description": "20260518T234500Z",
+      "url": "https://www.tickerreport.com/banking-finance/13446527/alphabet-nasdaqgoogl-major-shareholder-2019-gp-l-l-c-gv-sells-60077-shares.html",
+      "published_at": "20260518T234500Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
-      "source": "Sample",
-      "title": "Analysts upgrade Google stock citing growth potential",
-      "description": "Full article about Google performance and market impact...",
-      "url": "https://example.com/news/googl/1",
-      "published_at": "2026-04-12T15:53:38.973942",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "Alphabet ( GOOGL ) Among the Best Stocks to Buy for 5 Years According to Billionaires",
+      "description": "20260518T211500Z",
+      "url": "https://www.insidermonkey.com/blog/alphabet-googl-among-the-best-stocks-to-buy-for-5-years-according-to-billionaires-1764113/",
+      "published_at": "20260518T211500Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
-      "source": "Sample",
-      "title": "Google announces new product launch",
-      "description": "Full article about Google performance and market impact...",
-      "url": "https://example.com/news/googl/2",
-      "published_at": "2026-04-11T15:53:38.973942",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "What Going On With Alphabet Stock Monday ? - Alphabet ( NASDAQ : GOOG ), Alphabet ( NASDAQ : GOOGL ) ",
+      "description": "20260518T193000Z",
+      "url": "https://www.benzinga.com/markets/tech/26/05/52645545/whats-going-on-with-alphabet-stock-monday",
+      "published_at": "20260518T193000Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
-      "source": "Sample",
-      "title": "Market reacts to Google's latest financial guidance",
-      "description": "Full article about Google performance and market impact...",
-      "url": "https://example.com/news/googl/3",
-      "published_at": "2026-04-10T15:53:38.973942",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "Alphabet New Growth Engine Is Something Investors Cant Miss",
+      "description": "20260518T190000Z",
+      "url": "https://www.fool.com/investing/2026/05/18/alphabets-new-growth-engine-is-something-investors/?source=iedfolrf0000001",
+      "published_at": "20260518T190000Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
-      "source": "Sample",
-      "title": "Google faces regulatory scrutiny in Europe",
-      "description": "Full article about Google performance and market impact...",
-      "url": "https://example.com/news/googl/4",
-      "published_at": "2026-04-09T15:53:38.973942",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "Baystreet . ca - Berkshire Hathaway Dumps Stocks , Including Amazon And Visa",
+      "description": "20260518T184500Z",
+      "url": "http://baystreet.ca/stockstowatch/23315/Berkshire-Hathaway-Dumps-Stocks-Including-Amazon-And-Visa",
+      "published_at": "20260518T184500Z",
+      "source_country": "Canada",
+      "is_sample": false
     },
     {
-      "source": "Sample",
-      "title": "Institutional investors increase holdings in Google",
-      "description": "Full article about Google performance and market impact...",
-      "url": "https://example.com/news/googl/5",
-      "published_at": "2026-04-08T15:53:38.973942",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "It not too late to buy Nvidia . Here are the reasons we say  own it , dont trade it  ",
+      "description": "20260518T183000Z",
+      "url": "https://www.cnbc.com/2026/05/18/its-not-too-late-to-buy-nvidia-here-are-the-reasons-we-say-own-it-dont-trade-it.html",
+      "published_at": "20260518T183000Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
-      "source": "Sample",
-      "title": "Google announces strategic partnership",
-      "description": "Full article about Google performance and market impact...",
-      "url": "https://example.com/news/googl/6",
-      "published_at": "2026-04-07T15:53:38.973942",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "Google Redesigned App Icons Are Rolling Out Now",
+      "description": "20260518T164500Z",
+      "url": "https://www.explosion.com/186532/googles-redesigned-app-icons-are-rolling-out-now/",
+      "published_at": "20260518T164500Z",
+      "source_country": "Japan",
+      "is_sample": false
     },
     {
-      "source": "Sample",
-      "title": "Supply chain challenges impact Google's production",
-      "description": "Full article about Google performance and market impact...",
-      "url": "https://example.com/news/googl/7",
-      "published_at": "2026-04-06T15:53:38.973942",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "Warren Buffett Successor Greg Abel Just More Than Tripled Berkshire Stake in This  Magnificent Seven  Stock . Is It a Buy ? ",
+      "description": "20260517T231500Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-successor-greg-abel-223600672.html",
+      "published_at": "20260517T231500Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
-      "source": "Sample",
-      "title": "Google beats revenue expectations in Q3",
-      "description": "Full article about Google performance and market impact...",
-      "url": "https://example.com/news/googl/8",
-      "published_at": "2026-04-05T15:53:38.973942",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "United Community Bank Reduces Stock Position in Alphabet Inc . $GOOGL",
+      "description": "20260517T130000Z",
+      "url": "https://www.tickerreport.com/banking-finance/13445333/united-community-bank-reduces-stock-position-in-alphabet-inc-googl.html",
+      "published_at": "20260517T130000Z",
+      "source_country": "United States",
+      "is_sample": false
     },
     {
-      "source": "Sample",
-      "title": "CEO of Google discusses future strategy",
-      "description": "Full article about Google performance and market impact...",
-      "url": "https://example.com/news/googl/9",
-      "published_at": "2026-04-04T15:53:38.973942",
-      "is_sample": true
+      "source": "GDELT",
+      "title": "Urban Wealth Management LLC Acquires New Stake in Alphabet Inc . $GOOGL",
+      "description": "20260517T130000Z",
+      "url": "https://www.dailypolitical.com/2026/05/17/urban-wealth-management-llc-acquires-new-stake-in-alphabet-inc-googl.html",
+      "published_at": "20260517T130000Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Google Cuts Free Storage From 15GB to 5GB Without a Phone Number",
+      "description": "20260517T070000Z",
+      "url": "https://www.explosion.com/186276/google-cuts-free-storage-from-15gb-to-5gb-without-a-phone-number/",
+      "published_at": "20260517T070000Z",
+      "source_country": "Japan",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Berkshire Portfolio Shifts As Abel Reshapes Buffett Playbook",
+      "description": "20260516T210000Z",
+      "url": "https://www.forbes.com/sites/bill_stone/2026/05/16/berkshire-portfolio-shifts-as-abel-reshapes-buffetts-playbook/",
+      "published_at": "20260516T210000Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Bill Gates Just Did the Unthinkable He Sold Every Last Share of Microsoft Stock",
+      "description": "20260516T141500Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bill-gates-just-did-unthinkable-132955202.html",
+      "published_at": "20260516T141500Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Space - Based Data Centers Are Yet Another Potential  Next Big Thing  for Google Stock",
+      "description": "20260516T010000Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/space-based-data-centers-yet-161414556.html",
+      "published_at": "20260516T010000Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Alphabet ( GOOGL ) AI Cloud Surge Accelerates As Anthropic Commits $200 Billion To Google Infrastructure",
+      "description": "20260516T010000Z",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/alphabet-googl-ai-cloud-surge-165904806.html",
+      "published_at": "20260516T010000Z",
+      "source_country": "United States",
+      "is_sample": false
     }
   ]
 }

@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react'
 import Sidebar from './components/Sidebar'
 import TopBar from './components/TopBar'
 import ChatPanel from './components/ChatPanel'
+import MarketPanel from './components/MarketPanel'
 import FinancialsPanel from './components/FinancialsPanel'
 import NewsPanel from './components/NewsPanel'
 import ImpactPanel from './components/ImpactPanel'
@@ -42,10 +43,11 @@ export default function App() {
           onWakeUp={poll}
         />
         <div className="panel-area">
-          {activeTab === 'chat'       && <ChatPanel      ticker={selectedTicker} backendStatus={backendStatus} />}
-          {activeTab === 'financials' && <FinancialsPanel ticker={selectedTicker} backendStatus={backendStatus} />}
-          {activeTab === 'news'       && <NewsPanel       ticker={selectedTicker} backendStatus={backendStatus} />}
-          {activeTab === 'impact'     && <ImpactPanel     ticker={selectedTicker} backendStatus={backendStatus} />}
+          {activeTab === 'chat'       && <ChatPanel       ticker={selectedTicker} backendStatus={backendStatus} />}
+          {activeTab === 'market'     && <MarketPanel      backendStatus={backendStatus} />}
+          {activeTab === 'financials' && <FinancialsPanel  ticker={selectedTicker} backendStatus={backendStatus} />}
+          {activeTab === 'news'       && <NewsPanel        ticker={selectedTicker} backendStatus={backendStatus} />}
+          {activeTab === 'impact'     && <ImpactPanel      ticker={selectedTicker} backendStatus={backendStatus} />}
         </div>
       </div>
     </div>

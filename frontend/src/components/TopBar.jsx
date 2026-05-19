@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react'
 
 const TAB_LABELS = {
-  chat: 'AI Chat',
+  chat:       'AI Chat',
+  market:     'Market Overview',
   financials: 'Financials',
-  news: 'News Feed',
-  impact: 'Impact Analysis',
+  news:       'News Feed',
+  impact:     'Impact Analysis',
 }
 
 export default function TopBar({ ticker, tab, backendStatus, onWakeUp }) {

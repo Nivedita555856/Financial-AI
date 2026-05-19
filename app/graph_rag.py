@@ -138,21 +138,41 @@ class GraphRAG:
             logger.error(f"Relationships load error: {e}")
 
     def _load_news(self):
+        """Load news — tries multiple dirs, falls back to data_raw/news."""
+        def _read_articles(path):
+            try:
+                raw = path.read_bytes().replace(b'\x00', b'')
+                data = json.loads(raw.decode("utf-8", errors="ignore"))
+                arts = data.get("articles", []) if isinstance(data, dict) else data
+                return [a for a in arts if isinstance(a, dict) and not a.get("is_sample")]
+            except Exception:
+                return []
+
         try:
-            news_dir = BASE_DIR / "data" / "financial" / "news_data"
-            if not news_dir.exists():
-                news_dir = BASE_DIR / "financial_data" / "news_data"
-            if not news_dir.exists():
-                return
-            for f in news_dir.glob("*_news.json"):
-                ticker = f.name.replace("_news.json", "")
-                try:
-                    raw = f.read_bytes().replace(b'\x00', b'')
-                    data = json.loads(raw.decode("utf-8", errors="ignore"))
-                    articles = [a for a in data.get("articles", []) if not a.get("is_sample")]
-                    self._news[ticker] = articles
-                except Exception:
-                    self._news[ticker] = []
+            dirs = [
+                BASE_DIR / "data" / "financial" / "news_data",
+                BASE_DIR / "financial_data" / "news_data",
+            ]
+            raw_dir = BASE_DIR / "data_raw" / "news"
+            loaded = set()
+            for news_dir in dirs:
+                if not news_dir.exists(): continue
+                for f in news_dir.glob("*_news.json"):
+                    ticker = f.name.replace("_news.json", "")
+                    if ticker not in loaded:
+                        arts = _read_articles(f)
+                        if arts:
+                            self._news[ticker] = arts
+                            loaded.add(ticker)
+            if raw_dir.exists():
+                for f in raw_dir.glob("*_news.json"):
+                    ticker = f.name.replace("_news.json", "")
+                    if ticker not in loaded:
+                        arts = _read_articles(f)
+                        if arts:
+                            self._news[ticker] = arts
+                            loaded.add(ticker)
+            logger.info(f"News loaded for: {list(loaded)}")
         except Exception as e:
             logger.error(f"News load error: {e}")
 

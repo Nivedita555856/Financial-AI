@@ -142,24 +142,33 @@ class GraphRAG:
             logger.error(f"Local relationships load error: {e}")
 
     def _load_news(self):
-        try:
-            news_dir = BASE_DIR / "financial_data" / "news_data"
-            if not news_dir.exists(): return
+        """Load news from multiple sources with full error tolerance."""
+        def safe_read(path):
+            try:
+                raw = Path(path).read_bytes().replace(b'\x00', b'')
+                data = json.loads(raw.decode("utf-8", errors="ignore"))
+                arts = data.get("articles", []) if isinstance(data, dict) else (data if isinstance(data, list) else [])
+                return [a for a in arts if isinstance(a, dict) and not a.get("is_sample") and a.get("title")]
+            except Exception:
+                return []
+
+        loaded = set()
+        dirs = [
+            BASE_DIR / "financial_data" / "news_data",
+            BASE_DIR / "data" / "financial" / "news_data",
+            BASE_DIR / "data_raw" / "news",
+        ]
+        for news_dir in dirs:
+            if not news_dir.exists(): continue
             for f in news_dir.glob("*_news.json"):
                 ticker = f.name.replace("_news.json", "")
-                try:
-                    raw = f.read_bytes().replace(b'\x00', b'')
-                    data = json.loads(raw.decode("utf-8", errors="ignore"))
-                    articles = [a for a in data.get("articles", []) if not a.get("is_sample")]
-                    self._news[ticker] = articles
-                except Exception:
-                    self._news[ticker] = []
-        except Exception as e:
-            logger.error(f"Local news load error: {e}")
-
-    # ------------------------------------------------------------------
-    # HELPERS
-    # ------------------------------------------------------------------
+                if ticker in loaded: continue
+                arts = safe_read(f)
+                if arts:
+                    self._news[ticker] = arts
+                    loaded.add(ticker)
+        if loaded:
+            logger.info(f"News loaded for: {sorted(loaded)}")
 
     def format_currency(self, value):
         if not value or value == 0: return "N/A"
@@ -432,26 +441,3 @@ Provide 3-4 sentence analysis: financial impact, relationship impact, recommenda
             elif user_input.lower().startswith("impact"):
                 parts = user_input[7:].split("|")
                 if len(parts)>=2: print(rag.ask_impact(parts[0].strip().upper(), parts[1].strip()))
-            elif user_input.lower().startswith("ask"):
-                print(rag.ask_general(user_input[4:].strip()))
-            elif user_input.lower()=="list":
-                print(", ".join(rag.get_all_companies()))
-
-
-def main():
-    import argparse
-    p = argparse.ArgumentParser()
-    p.add_argument("--ask"); p.add_argument("--ticker"); p.add_argument("--impact")
-    p.add_argument("--relationships"); p.add_argument("--list", action="store_true")
-    args = p.parse_args()
-    rag = GraphRAG()
-    rag.connect()
-    if args.list:       print(rag.get_all_companies())
-    elif args.impact:
-        parts = args.impact.split("|")
-        if len(parts)>=2: print(rag.ask_impact(parts[0].strip().upper(), parts[1].strip()))
-    elif args.ask:      print(rag.ask_general(args.ask, args.ticker))
-    rag.close()
-
-if __name__ == "__main__":
-    main()

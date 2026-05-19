@@ -101,7 +101,6 @@ export default function ChatPanel({ ticker, backendStatus }) {
         {messages.length === 0 && !loading && (
           <div className="chat-welcome">
             <div className="chat-welcome-icon">📈</div>
-            <h2>{COMPANY_NAMES[ticker] || ticker}</h2>
             {backendStatus === 'offline' && (
               <div className="offline-warn" style={{ textAlign: 'left', margin: '0 auto 16px', maxWidth: 360 }}>
                 <div className="offline-warn-icon">⚠️</div>
@@ -111,11 +110,6 @@ export default function ChatPanel({ ticker, backendStatus }) {
                 </div>
               </div>
             )}
-            <div className="quick-chips">
-              {QUICK_SUGGESTIONS.map(q => (
-                <button key={q} className="chip" onClick={() => send(q)}>{q}</button>
-              ))}
-            </div>
           </div>
         )}
 

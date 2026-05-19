@@ -147,8 +147,13 @@ class GraphRAG:
             if not news_dir.exists(): return
             for f in news_dir.glob("*_news.json"):
                 ticker = f.name.replace("_news.json", "")
-                data = json.loads(f.read_text(encoding="utf-8", errors="ignore"))
-                self._news[ticker] = data.get("articles", [])
+                try:
+                    raw = f.read_bytes().replace(b'\x00', b'')
+                    data = json.loads(raw.decode("utf-8", errors="ignore"))
+                    articles = [a for a in data.get("articles", []) if not a.get("is_sample")]
+                    self._news[ticker] = articles
+                except Exception:
+                    self._news[ticker] = []
         except Exception as e:
             logger.error(f"Local news load error: {e}")
 

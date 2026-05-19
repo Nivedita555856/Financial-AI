@@ -1,1 +1,141 @@
-{"ticker":"TSLA","collection_date":"2020-01-01T00:00:00+00:00","articles":[{"is_sample":true,"source":"placeholder","title":"placeholder"}]}
+{
+  "ticker": "TSLA",
+  "collection_date": "2026-05-19T05:42:00.077983+00:00",
+  "articles": [
+    {
+      "source": "GDELT",
+      "title": "Ford takes its first big step toward being an energy business",
+      "description": "20260518T231500Z",
+      "url": "https://www.morningstar.com/news/marketwatch/20260518397/ford-takes-its-first-big-step-toward-being-an-energy-business",
+      "published_at": "20260518T231500Z",
+      "source_country": "China",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "SpaceX Stock Split Sparks Fresh IPO Frenzy",
+      "description": "20260518T194500Z",
+      "url": "https://wallstreetpit.com/128904-spacex-stock-split-sparks-fresh-ipo-frenzy/",
+      "published_at": "20260518T194500Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Baystreet . ca - Tesla Chief Financial Officer Sells Company Stock",
+      "description": "20260518T184500Z",
+      "url": "http://baystreet.ca/techinsider/5563/Teslas-Chief-Financial-Officer-Sells-Company-Stock",
+      "published_at": "20260518T184500Z",
+      "source_country": "Canada",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Tesla $250 Million Germany Bet Is Interesting . It Spending More Before It Has the Payoff . ",
+      "description": "20260518T184500Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-250-million-germany-bet-130002982.html",
+      "published_at": "20260518T184500Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Jim Cramer Shares Why Tesla ( TSLA ) Is Better Than Ford",
+      "description": "20260518T151500Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-shares-why-tesla-145002282.html",
+      "published_at": "20260518T151500Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Nio Stock Forms Rare Bullish Pattern As Earnings Loom - NIO ( NYSE : NIO ) ",
+      "description": "20260517T214500Z",
+      "url": "https://www.benzinga.com/markets/tech/26/05/52625443/nio-stock-forms-rare-bullish-pattern-as-earnings-loom",
+      "published_at": "20260517T214500Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Leverage Shares 2x Long TSLA Daily ETF ( NASDAQ : TSLG ) Sees Significant Increase in Short Interest",
+      "description": "20260517T184500Z",
+      "url": "https://www.tickerreport.com/banking-finance/13445498/leverage-shares-2x-long-tsla-daily-etf-nasdaqtslg-sees-significant-increase-in-short-interest.html",
+      "published_at": "20260517T184500Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Best Electric Vehicle Stocks To Watch Today \u2013 May 16th",
+      "description": "20260517T184500Z",
+      "url": "https://www.dailypolitical.com/2026/05/17/best-electric-vehicle-stocks-to-watch-today-may-16th.html",
+      "published_at": "20260517T184500Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Energy Stocks To Keep An Eye On \u2013 May 16th",
+      "description": "20260517T184500Z",
+      "url": "https://www.tickerreport.com/banking-finance/13445500/energy-stocks-to-keep-an-eye-on-may-16th.html",
+      "published_at": "20260517T184500Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Is Tesla Stock a Buy or Sell ? | investingLive",
+      "description": "20260517T161500Z",
+      "url": "https://investinglive.com:443/stocks/is-tesla-stock-a-buy-or-sell-20260517/",
+      "published_at": "20260517T161500Z",
+      "source_country": "",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Tesla Hikes Model Y Prices By Up To $1 , 000 Here What You Should Know - Tesla ( NASDAQ : TSLA ) ",
+      "description": "20260517T090000Z",
+      "url": "https://www.benzinga.com/markets/tech/26/05/52624538/tesla-hikes-model-y-prices-by-up-to-1000-heres-what-you-should-know",
+      "published_at": "20260517T090000Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Best Large Cap Stocks To Keep An Eye On \u2013 May 16th",
+      "description": "20260516T204500Z",
+      "url": "https://www.dailypolitical.com/2026/05/16/best-large-cap-stocks-to-keep-an-eye-on-may-16th.html",
+      "published_at": "20260516T204500Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Tesla [ NASDAQ : TSLA ] Stock Slides 3 . 73 % on Friday as FSD Stalls and 30 - Year Treasury Hits 5 % ",
+      "description": "20260516T200000Z",
+      "url": "https://www.foreignpolicyjournal.com/2026/05/16/tesla-nasdaq-tsla-stock-slides-3-73-on-friday-as-fsd-stalls-and-30-year-treasury-hits-5/",
+      "published_at": "20260516T200000Z",
+      "source_country": "Israel",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Jim Cramer Discussed A Mysterious Yellow Light & These 9 Stocks",
+      "description": "20260516T121500Z",
+      "url": "https://www.insidermonkey.com/blog/jim-cramer-discussed-a-mysterious-yellow-light-these-9-stocks-1762669/",
+      "published_at": "20260516T121500Z",
+      "source_country": "United States",
+      "is_sample": false
+    },
+    {
+      "source": "GDELT",
+      "title": "Tesla to Invest $250 Million in Berlin Gigafactory",
+      "description": "20260516T100000Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-invest-250-million-berlin-084341890.html",
+      "published_at": "20260516T100000Z",
+      "source_country": "United States",
+      "is_sample": false
+    }
+  ]
+}

@@ -114,18 +114,18 @@ async def get_companies():
 
 @app.get("/api/news/{ticker}")
 async def get_news(ticker: str, limit: int = 10):
+    news = []
     try:
-        if not rag: raise HTTPException(500, "GraphRAG not initialized")
-        news = rag.search_weaviate(f"{ticker} news", ticker, limit)
-        # attach sentiment to each article
-        sentiment = analyze_sentiment(news)
-        return {"ticker": ticker, "news": news, "count": len(news),
-                "sentiment": sentiment, "status": "success"}
+        if rag:
+            news = rag.search_weaviate(f"{ticker} news", ticker, limit)
     except Exception as e:
-        raise HTTPException(500, str(e))
-
-
-# ── Market / Trader endpoints ─────────────────────────────────────────────
+        logger.error(f"search_weaviate error {ticker}: {e}")
+    try:
+        sentiment = analyze_sentiment(news)
+    except Exception:
+        sentiment = {"score": 0.0, "label": "Neutral", "count": 0}
+    return {"ticker": ticker, "news": news, "count": len(news),
+            "sentiment": sentiment, "status": "success"}
 
 @app.get("/api/prices")
 async def get_prices():

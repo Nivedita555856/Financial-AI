@@ -30,15 +30,20 @@ def analyze_sentiment(articles: List[Dict]) -> Dict:
         sia = SentimentIntensityAnalyzer()
         scores = []
         for a in articles:
-            title = a.get("title", "")
-            if title and title != "placeholder":
-                scores.append(sia.polarity_scores(title)["compound"])
+            title = str(a.get("title", "") or "").strip()
+            if title and title.lower() not in ("placeholder", ""):
+                try:
+                    score = sia.polarity_scores(title)["compound"]
+                    scores.append(score)
+                except Exception:
+                    pass
         if not scores:
             return {"score": 0.0, "label": "Neutral", "count": 0}
-        avg = sum(scores) / len(scores)
+        avg = round(sum(scores) / len(scores), 3)
         label = "Positive" if avg >= 0.05 else "Negative" if avg <= -0.05 else "Neutral"
-        return {"score": round(avg, 3), "label": label, "count": len(scores)}
+        return {"score": avg, "label": label, "count": len(scores)}
     except ImportError:
+        logger.warning("vaderSentiment not installed — pip install vaderSentiment")
         return {"score": 0.0, "label": "Neutral", "count": 0}
     except Exception as e:
         logger.warning(f"Sentiment error: {e}")
